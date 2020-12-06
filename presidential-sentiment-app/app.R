@@ -20,8 +20,8 @@ speeches <- speeches%>%
 Url <- speeches[1, ]
 
 #find.sentiment.value(url)
-  #in: url representing a president's speech from https://millercenter.org/the-presidency/
-  #out: data frame containing the name of the president, the date the speech was given, and the speech's sentiment value 
+#in: url representing a president's speech from https://millercenter.org/the-presidency/
+#out: data frame containing the name of the president, the date the speech was given, and the speech's sentiment value 
 find.sentiment.value <- function(Url){
   html.text <- Url %>%
     read_html() %>%
@@ -56,9 +56,15 @@ find.sentiment.value <- function(Url){
                     stringsAsFactors = FALSE))
 }
 
-speech.info <- find.sentiment.value(speeches[1, ])
+speeches.info <- find.sentiment.value(speeches[1, ])
 
-
+for (i in 2:as.numeric(nrow(speeches))){
+  new.row <- find.sentiment.value(speeches[i, ])
+  speeches.info <- rbind(speeches.info, new.row)
+  print(i/as.numeric(nrow(speeches)))
+}
+write.csv(speeches.info, "/Users/ingridsorensen/Desktop/DataScience/FoodDeserts/presidential-sentiment/speeches_info.csv")
+#rename folders if it doesn't work
 ui <- fluidPage(
   
 )
