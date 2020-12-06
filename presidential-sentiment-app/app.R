@@ -10,67 +10,63 @@ library(SentimentAnalysis)
 library(dplyr)
 library(tidytext)
 
-#Rcrawler(Website = "https://millercenter.org/the-presidency/presidential-speeches", dataUrlfilter = "https://millercenter.org/the-presidency/presidential-speeches/.*")
-#filtered3 <- INDEX %>% filter(str_detect(Url, "https://millercenter.org/the-presidency/presidential-speeches/.*"))
-#filtered3 <- filtered3 %>% select(Url)
-#write.csv(filtered3, "/Users/zeinhorn/Documents/school/college/senior/ds/Final_project/presidential-sentiment/speech-urls3.csv")
-speeches <- read.csv("speech-urls3.csv")
-speeches <- speeches%>%
-  select(Url)
-Url <- speeches[1, ]
-
-#find.sentiment.value(url)
-#in: url representing a president's speech from https://millercenter.org/the-presidency/
-#out: data frame containing the name of the president, the date the speech was given, and the speech's sentiment value 
-find.sentiment.value <- function(Url){
-  html.text <- Url %>%
-    read_html() %>%
-    html_nodes("p") %>%
-    html_text()
-  html.data <- data.frame(text = html.text,
-                          stringsAsFactors = FALSE)
-  
-  last.row <- as.numeric(nrow(html.data))
-  
-  #clean up data
-  html.data <- data.frame(text = html.data[2:(last.row-2),],
-                          stringsAsFactors = FALSE)
-  
-  #grab name and date
-  name.date <- data.frame(text = html.data[1:2,],
-                          stringsAsFactors = FALSE)
-  
-  unnested.text <- html.data %>%
-    unnest_tokens("word", "text") %>%
-    anti_join(stop_words, by = "word")
-  sentiment.by.word <- unnested.text %>%
-    count(word) %>%
-    left_join(get_sentiments("afinn"), by = "word") %>% 
-    filter(!is.na(value)) %>%
-    mutate(total.value = n*value)
-  avg.sentiment <- sentiment.by.word %>%
-    summarise(average.sentiment = mean(total.value))
-  avg.sentiment.value <- avg.sentiment[1,1]
-  
-  return(data.frame(name = name.date[1,], date = name.date[2,], sentiment.value = avg.sentiment.value,
-                    stringsAsFactors = FALSE))
+#write.csv(speeches.info, "/Users/ingridsorensen/Desktop/DataScience/FoodDeserts/presidential-sentiment/speeches_info.csv")
+speech <- read.csv("speeches_info_2.csv")
+speech <- speech %>%
+  distinct()
+#Changing format of dates column
+as.Date("December 06, 2020", format = "%B %d, %Y")
+for (i in 1:as.numeric(nrow(speech))){
+  speech[i, 2] <- as.Date(toString(speech[i, 2]), format = "%B %d, %Y")
+  #as.Date(as.numeric(useful.date), origin = "1970-01-01")
 }
 
-speeches.info <- find.sentiment.value(speeches[1, ])
-
-for (i in 2:20){
-  new.row <- find.sentiment.value(speeches[i, ])
-  speeches.info <- rbind(speeches.info, new.row)
-  print(i/as.numeric(nrow(speeches)))
-}
-write.csv(speeches.info, "/Users/ingridsorensen/Desktop/DataScience/FoodDeserts/presidential-sentiment/speeches_info.csv")
-#rename folders if it doesn't work
+#Making a graph of the dates and sentiment
+speech$date <- as.numeric(speech$date)
+speech %>%
+  ggplot(aes(x = date,
+             y = sentiment.value)) +
+  geom_col(aes(color = name))
 ui <- fluidPage(
-  
+  fluidRow(h4("Left plot controls right plot")),
+  fluidRow(plotOutput("plot2", height = 300,
+                      brush = brushOpts(
+                        id = "plot2_brush",
+                        resetOnNew = TRUE
+                      ))),
+  fluidRow(plotOutput("plot3", height = 300)
+  )
 )
 
 server <- function(input, output, session) {
+  ranges2 <- reactiveValues(x = NULL, y = NULL)
   
+  output$plot2 <- renderPlot({
+    ggplot(speech, aes(x = date,
+                       y = sentiment.value)) +
+      geom_col(aes(color = name))
+  })
+  
+  output$plot3 <- renderPlot({
+    ggplot(speech, aes(x = date,
+                       y = sentiment.value)) +
+      geom_col(aes(color = name)) +
+      coord_cartesian(xlim = ranges2$x, ylim = ranges2$y, expand = FALSE)
+  })
+  
+  # When a double-click happens, check if there's a brush on the plot.
+  # If so, zoom to the brush bounds; if not, reset the zoom.
+  observe({
+    brush <- input$plot2_brush
+    if (!is.null(brush)) {
+      ranges2$x <- c(brush$xmin, brush$xmax)
+      ranges2$y <- c(-2.8, 5)
+    } 
+    else {
+      ranges2$x <- NULL
+      ranges2$y <- NULL
+    }
+  })
 }
 
 shinyApp(ui, server)

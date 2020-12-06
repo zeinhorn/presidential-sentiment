@@ -1,0 +1,2032 @@
+name,date,sentiment.value
+Donald Trump,"November 05, 2020",0.764705882352941
+Donald Trump,"October 26, 2020",2.59375
+Donald Trump,"September 26, 2020",2.93055555555556
+Donald Trump,"September 07, 2020",-0.182857142857143
+Donald Trump,"August 08, 2020",-0.233009708737864
+Donald Trump,"July 04, 2020",1.81739130434783
+Donald Trump,"June 20, 2020",-0.307359307359307
+Donald Trump,"June 13, 2020",1.06666666666667
+Donald Trump,"June 01, 2020",-0.971014492753623
+Donald Trump,"April 23, 2020",1.2360248447205
+Donald Trump,"April 15, 2020",1.12121212121212
+Donald Trump,"April 13, 2020",0.607758620689655
+George Washington,"September 19, 1796",1.02272727272727
+George Washington,"April 30, 1789",1.31944444444444
+George Washington,"April 22, 1793",0.666666666666667
+George Washington,"August 29, 1796",2.6530612244898
+John Adams,"December 19, 1799",0.193548387096774
+John Adams,"March 04, 1797",1.52272727272727
+John Adams,"March 23, 1798",1.66666666666667
+John Adams,"May 21, 1800",-0.266666666666667
+Thomas Jefferson,"March 04, 1801",1.05555555555556
+Thomas Jefferson,"June 20, 1803",0.423076923076923
+Thomas Jefferson,"December 06, 1805",-0.181818181818182
+James Madison,"March 04, 1809",1.20634920634921
+James Madison,"June 01, 1812",-0.229357798165138
+James Madison,"January 30, 1815",0.268292682926829
+James Monroe,"March 04, 1817",1.43076923076923
+James Monroe,"March 05, 1821",0.928571428571429
+James Monroe,"December 02, 1823",0.91304347826087
+John Quincy Adams,"March 04, 1825",1.21495327102804
+John Quincy Adams,"December 06, 1825",1.57692307692308
+John Quincy Adams,"February 05, 1827",0.348837209302326
+Andrew Jackson,"February 15, 1832",0.95
+Andrew Jackson,"July 10, 1832",1.15789473684211
+Andrew Jackson,"January 16, 1833",0.227488151658768
+Martin Van Buren,"March 04, 1837",0.773809523809524
+Martin Van Buren,"December 05, 1837",1.10502283105023
+Martin Van Buren,"November 21, 1838",0.269230769230769
+Martin Van Buren,"February 16, 1839",-0.245283018867925
+William Harrison,"March 04, 1841",0.844036697247706
+John Tyler,"April 09, 1841",0.492957746478873
+John Tyler,"December 07, 1841",0.580808080808081
+Donald Trump,"September 26, 2020",2.93055555555556
+Donald Trump,"September 07, 2020",-0.182857142857143
+Donald Trump,"August 08, 2020",-0.233009708737864
+Donald Trump,"July 04, 2020",1.81739130434783
+Donald Trump,"June 20, 2020",-0.307359307359307
+Donald Trump,"June 13, 2020",1.06666666666667
+Donald Trump,"June 01, 2020",-0.971014492753623
+Donald Trump,"April 23, 2020",1.2360248447205
+Donald Trump,"April 15, 2020",1.12121212121212
+Donald Trump,"April 13, 2020",0.607758620689655
+George Washington,"September 19, 1796",1.02272727272727
+George Washington,"April 30, 1789",1.31944444444444
+George Washington,"April 22, 1793",0.666666666666667
+George Washington,"August 29, 1796",2.6530612244898
+John Adams,"December 19, 1799",0.193548387096774
+John Adams,"March 04, 1797",1.52272727272727
+John Adams,"March 23, 1798",1.66666666666667
+John Adams,"May 21, 1800",-0.266666666666667
+Thomas Jefferson,"March 04, 1801",1.05555555555556
+Thomas Jefferson,"June 20, 1803",0.423076923076923
+Thomas Jefferson,"December 06, 1805",-0.181818181818182
+James Madison,"March 04, 1809",1.20634920634921
+James Madison,"June 01, 1812",-0.229357798165138
+James Madison,"January 30, 1815",0.268292682926829
+James Monroe,"March 04, 1817",1.43076923076923
+James Monroe,"March 05, 1821",0.928571428571429
+James Monroe,"December 02, 1823",0.91304347826087
+John Quincy Adams,"March 04, 1825",1.21495327102804
+John Quincy Adams,"December 06, 1825",1.57692307692308
+John Quincy Adams,"February 05, 1827",0.348837209302326
+Andrew Jackson,"February 15, 1832",0.95
+Andrew Jackson,"July 10, 1832",1.15789473684211
+Andrew Jackson,"January 16, 1833",0.227488151658768
+Martin Van Buren,"March 04, 1837",0.773809523809524
+Martin Van Buren,"December 05, 1837",1.10502283105023
+Martin Van Buren,"November 21, 1838",0.269230769230769
+Martin Van Buren,"February 16, 1839",-0.245283018867925
+William Harrison,"March 04, 1841",0.844036697247706
+John Tyler,"April 09, 1841",0.492957746478873
+John Tyler,"December 07, 1841",0.580808080808081
+John Tyler,"August 18, 1842",1.05263157894737
+John Tyler,"February 20, 1845",-0.358974358974359
+James K. Polk,"May 11, 1846",-0.0833333333333333
+James K. Polk,"June 10, 1846",0.636363636363636
+James K. Polk,"August 14, 1848",0.188405797101449
+Zachary Taylor,"April 22, 1850",1.22727272727273
+Zachary Taylor,"March 05, 1849",1.3921568627451
+Zachary Taylor,"December 04, 1849",1.08064516129032
+Zachary Taylor,"January 23, 1850",1.06122448979592
+Millard Fillmore,"August 06, 1850",1.26470588235294
+Millard Fillmore,"December 02, 1850",0.73936170212766
+Millard Fillmore,"February 19, 1851",-0.0131578947368421
+Millard Fillmore,"December 06, 1852",1.01293103448276
+Franklin Pierce,"March 04, 1853",0.833333333333333
+Franklin Pierce,"May 15, 1854",1.08219178082192
+Donald Trump,"September 26, 2020",2.93055555555556
+Donald Trump,"September 07, 2020",-0.182857142857143
+Donald Trump,"August 08, 2020",-0.233009708737864
+Donald Trump,"July 04, 2020",1.81739130434783
+Donald Trump,"June 20, 2020",-0.307359307359307
+Donald Trump,"June 13, 2020",1.06666666666667
+Donald Trump,"June 01, 2020",-0.971014492753623
+Donald Trump,"April 23, 2020",1.2360248447205
+Donald Trump,"April 15, 2020",1.12121212121212
+Donald Trump,"April 13, 2020",0.607758620689655
+George Washington,"September 19, 1796",1.02272727272727
+George Washington,"April 30, 1789",1.31944444444444
+George Washington,"April 22, 1793",0.666666666666667
+George Washington,"August 29, 1796",2.6530612244898
+John Adams,"December 19, 1799",0.193548387096774
+John Adams,"March 04, 1797",1.52272727272727
+John Adams,"March 23, 1798",1.66666666666667
+John Adams,"May 21, 1800",-0.266666666666667
+Thomas Jefferson,"March 04, 1801",1.05555555555556
+Thomas Jefferson,"June 20, 1803",0.423076923076923
+Thomas Jefferson,"December 06, 1805",-0.181818181818182
+James Madison,"March 04, 1809",1.20634920634921
+James Madison,"June 01, 1812",-0.229357798165138
+James Madison,"January 30, 1815",0.268292682926829
+James Monroe,"March 04, 1817",1.43076923076923
+James Monroe,"March 05, 1821",0.928571428571429
+James Monroe,"December 02, 1823",0.91304347826087
+John Quincy Adams,"March 04, 1825",1.21495327102804
+John Quincy Adams,"December 06, 1825",1.57692307692308
+John Quincy Adams,"February 05, 1827",0.348837209302326
+Andrew Jackson,"February 15, 1832",0.95
+Andrew Jackson,"July 10, 1832",1.15789473684211
+Andrew Jackson,"January 16, 1833",0.227488151658768
+Martin Van Buren,"March 04, 1837",0.773809523809524
+Martin Van Buren,"December 05, 1837",1.10502283105023
+Martin Van Buren,"November 21, 1838",0.269230769230769
+Martin Van Buren,"February 16, 1839",-0.245283018867925
+William Harrison,"March 04, 1841",0.844036697247706
+John Tyler,"April 09, 1841",0.492957746478873
+John Tyler,"December 07, 1841",0.580808080808081
+John Tyler,"August 18, 1842",1.05263157894737
+John Tyler,"February 20, 1845",-0.358974358974359
+James K. Polk,"May 11, 1846",-0.0833333333333333
+James K. Polk,"June 10, 1846",0.636363636363636
+James K. Polk,"August 14, 1848",0.188405797101449
+Zachary Taylor,"April 22, 1850",1.22727272727273
+Zachary Taylor,"March 05, 1849",1.3921568627451
+Zachary Taylor,"December 04, 1849",1.08064516129032
+Zachary Taylor,"January 23, 1850",1.06122448979592
+Millard Fillmore,"August 06, 1850",1.26470588235294
+Millard Fillmore,"December 02, 1850",0.73936170212766
+Millard Fillmore,"February 19, 1851",-0.0131578947368421
+Millard Fillmore,"December 06, 1852",1.01293103448276
+Franklin Pierce,"March 04, 1853",0.833333333333333
+Franklin Pierce,"May 15, 1854",1.08219178082192
+Franklin Pierce,"January 24, 1856",0.142857142857143
+James Buchanan,"January 08, 1861",-0.116883116883117
+James Buchanan,"March 04, 1857",1.15384615384615
+James Buchanan,"December 19, 1859",0.316363636363636
+James Buchanan,"March 01, 1861",-0.0476190476190476
+Abraham Lincoln,"June 16, 1858",-0.345679012345679
+Abraham Lincoln,"March 04, 1861",-0.229357798165138
+Abraham Lincoln,"November 19, 1863",-0.266666666666667
+Andrew Johnson,"April 17, 1865",1.11111111111111
+Andrew Johnson,"May 29, 1865",0.392857142857143
+Andrew Johnson,"April 02, 1866",0.758620689655172
+Andrew Johnson,"December 08, 1868",0.488372093023256
+Ulysses S. Grant,"March 04, 1869",1.01960784313725
+Ulysses S. Grant,"January 13, 1875",-1.20740740740741
+Ulysses S. Grant,"December 05, 1876",1.04137931034483
+Rutherford B. Hayes,"March 05, 1877",1.47727272727273
+Rutherford B. Hayes,"December 03, 1877",1.16600790513834
+Rutherford B. Hayes,"March 01, 1879",1.64556962025316
+Rutherford B. Hayes,"December 06, 1880",1.7175572519084
+James A. Garfield,"March 04, 1881",0.135338345864662
+Chester A. Arthur,"December 10, 1884",1.05555555555556
+Chester A. Arthur,"September 22, 1881",-0.21875
+Chester A. Arthur,"April 04, 1882",0.787878787878788
+Chester A. Arthur,"December 01, 1884",1.13793103448276
+Grover Cleveland,"March 04, 1885",1.05405405405405
+Grover Cleveland,"March 04, 1893",0.564814814814815
+Grover Cleveland,"March 02, 1897",0.20253164556962
+Benjamin Harrison,"March 04, 1889",0.941176470588235
+Benjamin Harrison,"June 04, 1889",-0.736842105263158
+Benjamin Harrison,"December 03, 1889",0.912087912087912
+Benjamin Harrison,"January 31, 1891",-1.16666666666667
+Benjamin Harrison,"February 15, 1893",0.925925925925926
+William McKinley,"April 11, 1898",-0.274285714285714
+William McKinley,"March 04, 1901",0.715789473684211
+William McKinley,"September 05, 1901",0.840425531914894
+Theodore Roosevelt,"September 14, 1901",-0.142857142857143
+Theodore Roosevelt,"March 04, 1905",0.666666666666667
+Theodore Roosevelt,"January 08, 1906",0.26530612244898
+William Taft,"January 14, 1910",0.971014492753623
+William Taft,"March 04, 1909",0.938356164383562
+William Taft,"November 17, 1909",0.674242424242424
+William Taft,"December 03, 1912",1.51344086021505
+Woodrow Wilson,"March 04, 1913",0.0533333333333333
+Woodrow Wilson,"April 16, 1917",0.782608695652174
+Woodrow Wilson,"January 08, 1918",1.56
+Warren G. Harding,"January 20, 1920",0.703703703703704
+Warren G. Harding,"March 04, 1921",0.755395683453237
+Warren G. Harding,"March 31, 1921",0.964285714285714
+Warren G. Harding,"November 12, 1921",0.386363636363636
+Calvin Coolidge,"December 06, 1923",1.1436170212766
+Calvin Coolidge,"March 04, 1925",1.36065573770492
+Calvin Coolidge,"October 20, 1925",0.118279569892473
+Calvin Coolidge,"August 10, 1927",2.15909090909091
+Herbert Hoover,"October 25, 1929",1
+Herbert Hoover,"December 02, 1930",0.614583333333333
+Herbert Hoover,"August 11, 1932",0.0272727272727273
+Franklin D. Roosevelt,"March 04, 1933",0.329268292682927
+Franklin D. Roosevelt,"March 09, 1937",0.272727272727273
+Franklin D. Roosevelt,"December 08, 1941",-0.36
+Harry S. Truman,"May 08, 1945",0.652173913043478
+Harry S. Truman,"April 16, 1945",1.13207547169811
+Harry S. Truman,"March 12, 1947",0.359550561797753
+Harry S. Truman,"June 20, 1947",-0.342105263157895
+Dwight D. Eisenhower,"January 20, 1953",1.25438596491228
+Dwight D. Eisenhower,"January 05, 1957",1.19047619047619
+Dwight D. Eisenhower,"January 17, 1961",0.189473684210526
+John F. Kennedy,"January 20, 1961",0.373333333333333
+John F. Kennedy,"May 25, 1961",0.769230769230769
+John F. Kennedy,"June 11, 1963",0.315068493150685
+Lyndon B. Johnson,"November 27, 1963",0.584415584415584
+Lyndon B. Johnson,"July 02, 1964",1.3
+Lyndon B. Johnson,"January 20, 1965",0.405405405405405
+Richard M. Nixon,"January 20, 1969",1.10204081632653
+Richard M. Nixon,"April 30, 1970",-0.612244897959184
+Richard M. Nixon,"August 09, 1974",0.589285714285714
+Gerald Ford,"September 08, 1974",0.230769230769231
+Gerald Ford,"April 10, 1975",0.712871287128713
+Gerald Ford,"August 19, 1976",1.16528925619835
+Jimmy Carter,"January 20, 1977",1.02702702702703
+Jimmy Carter,"July 15, 1979",0.412587412587413
+Jimmy Carter,"October 28, 1980",0.074235807860262
+Ronald Reagan,"March 04, 1987",0.645161290322581
+Ronald Reagan,"January 20, 1981",1.11340206185567
+Ronald Reagan,"March 08, 1983",0.359154929577465
+Ronald Reagan,"June 12, 1987",1.28125
+George H. W. Bush,"January 20, 1989",1.98591549295775
+George H. W. Bush,"December 20, 1989",-0.0952380952380952
+George H. W. Bush,"February 27, 1991",-0.105263157894737
+Bill Clinton,"January 20, 1993",0.589041095890411
+Bill Clinton,"December 08, 1993",1.52564102564103
+Bill Clinton,"August 17, 1998",0.0967741935483871
+George W. Bush,"January 20, 2001",0.677777777777778
+George W. Bush,"September 21, 2001",-0.106870229007634
+George W. Bush,"November 13, 2008",0.779661016949153
+Barack Obama,"November 04, 2008",0.871794871794872
+Barack Obama,"June 04, 2009",0.290155440414508
+Barack Obama,"January 21, 2013",1.26
+Donald Trump,"January 20, 2017",1.31884057971015
+Donald Trump,"February 28, 2017",0.494444444444444
+Donald Trump,"January 30, 2018",0.29064039408867
+Donald Trump,"November 05, 2020",0.764705882352941
+Donald Trump,"September 26, 2020",2.93055555555556
+Donald Trump,"September 07, 2020",-0.182857142857143
+Donald Trump,"August 08, 2020",-0.233009708737864
+Donald Trump,"July 04, 2020",1.81739130434783
+Donald Trump,"June 20, 2020",-0.307359307359307
+Donald Trump,"June 13, 2020",1.06666666666667
+Donald Trump,"June 01, 2020",-0.971014492753623
+Donald Trump,"April 23, 2020",1.2360248447205
+Donald Trump,"April 15, 2020",1.12121212121212
+Donald Trump,"April 13, 2020",0.607758620689655
+Donald Trump,"March 13, 2020",1.15909090909091
+Richard M. Nixon,"August 08, 1974",0.60655737704918
+Richard M. Nixon,"April 30, 1973",0.670103092783505
+George Washington,"September 19, 1796",1.02272727272727
+George Washington,"December 07, 1796",1.06930693069307
+George Washington,"March 30, 1796",1
+George Washington,"December 08, 1795",0.635294117647059
+George Washington,"July 10, 1795",0.0526315789473684
+George Washington,"November 19, 1794",0.145833333333333
+George Washington,"September 25, 1794",0.8
+George Washington,"August 07, 1794",-0.0454545454545455
+George Washington,"December 03, 1793",0.294117647058824
+George Washington,"March 04, 1793",0.285714285714286
+George Washington,"April 30, 1789",1.31944444444444
+George Washington,"October 03, 1789",2.38461538461538
+George Washington,"January 08, 1790",1.47619047619048
+George Washington,"December 08, 1790",0.78
+George Washington,"December 29, 1790",0.571428571428571
+George Washington,"October 25, 1791",1.30769230769231
+George Washington,"April 05, 1792",0
+George Washington,"November 06, 1792",0.732394366197183
+George Washington,"December 12, 1792",0.466666666666667
+George Washington,"April 22, 1793",0.666666666666667
+George Washington,"August 29, 1796",2.6530612244898
+John Adams,"December 19, 1799",0.193548387096774
+John Adams,"December 03, 1799",0.923076923076923
+John Adams,"November 22, 1800",1.66
+John Adams,"December 08, 1798",0.685714285714286
+John Adams,"November 22, 1797",0.36
+John Adams,"May 16, 1797",0.336448598130841
+John Adams,"March 04, 1797",1.52272727272727
+John Adams,"March 23, 1798",1.66666666666667
+John Adams,"May 21, 1800",-0.266666666666667
+Thomas Jefferson,"April 03, 1809",1.4
+Thomas Jefferson,"November 08, 1808",0.25609756097561
+Thomas Jefferson,"October 27, 1807",0.0428571428571429
+Thomas Jefferson,"July 02, 1807",-0.323529411764706
+Thomas Jefferson,"February 10, 1807",-0.363636363636364
+Thomas Jefferson,"January 22, 1807",0.212121212121212
+Thomas Jefferson,"December 30, 1806",0.305555555555556
+Thomas Jefferson,"December 02, 1806",0.89041095890411
+Thomas Jefferson,"November 27, 1806",0.571428571428571
+Thomas Jefferson,"January 10, 1806",-0.354838709677419
+Thomas Jefferson,"December 03, 1805",0.148936170212766
+Thomas Jefferson,"March 04, 1801",1.05555555555556
+Thomas Jefferson,"July 12, 1801",0.619047619047619
+Thomas Jefferson,"December 08, 1801",0.556603773584906
+Thomas Jefferson,"January 01, 1802",1.73333333333333
+Thomas Jefferson,"November 03, 1802",1.325
+Thomas Jefferson,"December 15, 1802",0.615384615384615
+Thomas Jefferson,"January 18, 1803",0.880952380952381
+Thomas Jefferson,"October 17, 1803",0.333333333333333
+Thomas Jefferson,"December 17, 1803",0.459459459459459
+Thomas Jefferson,"November 08, 1804",0.508771929824561
+Thomas Jefferson,"June 20, 1803",0.423076923076923
+Thomas Jefferson,"March 04, 1805",0.870588235294118
+Thomas Jefferson,"December 06, 1805",-0.181818181818182
+James Madison,"March 03, 1817",1.3448275862069
+James Madison,"December 03, 1816",0.938144329896907
+James Madison,"December 05, 1815",1.22680412371134
+James Madison,"February 18, 1815",1.75609756097561
+James Madison,"September 20, 1814",-0.202127659574468
+James Madison,"September 01, 1814",-0.775
+James Madison,"December 07, 1813",-0.149606299212598
+James Madison,"July 23, 1813",1.4
+James Madison,"May 25, 1813",0.453333333333333
+James Madison,"March 04, 1813",-0.0625
+James Madison,"November 04, 1812",0.0256410256410256
+James Madison,"March 04, 1809",1.20634920634921
+James Madison,"May 23, 1809",1.10714285714286
+James Madison,"November 29, 1809",0.847457627118644
+James Madison,"October 27, 1810",0.416666666666667
+James Madison,"December 05, 1810",0.7
+James Madison,"February 21, 1811",0.375
+James Madison,"November 05, 1811",0.5
+James Madison,"June 19, 1812",1.28571428571429
+James Madison,"July 09, 1812",0.473684210526316
+James Madison,"June 01, 1812",-0.229357798165138
+James Madison,"January 30, 1815",0.268292682926829
+James Monroe,"December 07, 1824",1.40268456375839
+James Monroe,"December 03, 1822",1
+James Monroe,"December 03, 1821",1.36607142857143
+James Monroe,"November 14, 1820",0.934782608695652
+James Monroe,"December 07, 1819",1.23423423423423
+James Monroe,"November 16, 1818",0.901785714285714
+James Monroe,"December 02, 1817",1.21495327102804
+James Monroe,"March 04, 1817",1.43076923076923
+James Monroe,"March 05, 1821",0.928571428571429
+James Monroe,"December 02, 1823",0.91304347826087
+John Quincy Adams,"February 24, 1841",2
+John Quincy Adams,"December 02, 1828",1.07284768211921
+John Quincy Adams,"December 04, 1827",1.1656050955414
+John Quincy Adams,"December 05, 1826",1.3489932885906
+John Quincy Adams,"December 06, 1825",1.78021978021978
+John Quincy Adams,"July 04, 1821",1.61111111111111
+John Quincy Adams,"March 04, 1825",1.21495327102804
+John Quincy Adams,"December 06, 1825",1.57692307692308
+John Quincy Adams,"February 05, 1827",0.348837209302326
+Andrew Jackson,"March 04, 1829",1.33898305084746
+Andrew Jackson,"September 18, 1833",0.350649350649351
+Andrew Jackson,"April 15, 1834",0.339285714285714
+Andrew Jackson,"March 04, 1837",0.972111553784861
+Andrew Jackson,"December 21, 1836",0.30188679245283
+Andrew Jackson,"December 05, 1836",0.447058823529412
+Andrew Jackson,"December 07, 1835",0.979338842975207
+Andrew Jackson,"December 01, 1834",0.513698630136986
+Andrew Jackson,"April 21, 1834",0.571428571428571
+Andrew Jackson,"December 12, 1833",0.75
+Andrew Jackson,"December 03, 1833",1.07608695652174
+Andrew Jackson,"March 04, 1833",1.46511627906977
+Andrew Jackson,"February 15, 1832",0.95
+Andrew Jackson,"December 06, 1831",1.10471204188482
+Andrew Jackson,"December 04, 1832",0.758454106280193
+Andrew Jackson,"December 06, 1832",0
+Andrew Jackson,"December 10, 1832",-0.419191919191919
+Andrew Jackson,"July 10, 1832",1.15789473684211
+Andrew Jackson,"January 16, 1833",0.227488151658768
+Martin Van Buren,"March 04, 1837",0.773809523809524
+Martin Van Buren,"September 04, 1837",0.221757322175732
+Martin Van Buren,"January 05, 1838",1
+Martin Van Buren,"December 03, 1838",1.08661417322835
+Martin Van Buren,"December 02, 1839",0.485611510791367
+Martin Van Buren,"December 05, 1840",0.544186046511628
+Martin Van Buren,"January 02, 1841",-0.844444444444444
+Martin Van Buren,"December 05, 1837",1.10502283105023
+Martin Van Buren,"November 21, 1838",0.269230769230769
+Martin Van Buren,"February 16, 1839",-0.245283018867925
+William Harrison,"March 04, 1841",0.844036697247706
+John Tyler,"April 09, 1841",0.492957746478873
+John Tyler,"June 01, 1841",0.632258064516129
+John Tyler,"August 16, 1841",0.666666666666667
+John Tyler,"September 09, 1841",0.43859649122807
+John Tyler,"March 25, 1842",0.0833333333333333
+John Tyler,"May 10, 1842",0.32258064516129
+John Tyler,"August 09, 1842",0.132530120481928
+John Tyler,"August 11, 1842",1.24409448818898
+John Tyler,"December 06, 1842",0.599056603773585
+John Tyler,"December 18, 1844",-0.181818181818182
+John Tyler,"December 03, 1844",1.30143540669856
+John Tyler,"June 11, 1844",0.851063829787234
+John Tyler,"April 09, 1844",0.392857142857143
+John Tyler,"December 05, 1843",0.803191489361702
+John Tyler,"December 30, 1842",1.18918918918919
+John Tyler,"December 07, 1841",0.580808080808081
+John Tyler,"August 18, 1842",1.05263157894737
+John Tyler,"February 20, 1845",-0.358974358974359
+James K. Polk,"February 08, 1849",2.18840579710145
+James K. Polk,"January 02, 1849",-1.66101694915254
+James K. Polk,"December 05, 1848",0.939102564102564
+James K. Polk,"August 01, 1848",1
+James K. Polk,"July 06, 1848",-1.13636363636364
+James K. Polk,"July 04, 1848",2.16666666666667
+James K. Polk,"May 29, 1848",0.342105263157895
+James K. Polk,"April 03, 1848",2
+James K. Polk,"February 22, 1848",1.26666666666667
+James K. Polk,"December 07, 1847",0.378640776699029
+James K. Polk,"February 13, 1847",-0.0175438596491228
+James K. Polk,"May 11, 1846",-0.0833333333333333
+James K. Polk,"April 13, 1846",0.1875
+James K. Polk,"May 13, 1846",1.69230769230769
+James K. Polk,"August 03, 1846",0.259259259259259
+James K. Polk,"August 05, 1846",1.4
+James K. Polk,"August 07, 1846",0.842105263157895
+James K. Polk,"August 08, 1846",0.238095238095238
+James K. Polk,"December 08, 1846",0.345890410958904
+James K. Polk,"December 29, 1846",-0.571428571428571
+James K. Polk,"June 10, 1846",0.636363636363636
+James K. Polk,"August 14, 1848",0.188405797101449
+Zachary Taylor,"April 22, 1850",1.22727272727273
+Zachary Taylor,"March 05, 1849",1.3921568627451
+Zachary Taylor,"December 04, 1849",1.08064516129032
+Zachary Taylor,"January 23, 1850",1.06122448979592
+Millard Fillmore,"August 06, 1850",1.26470588235294
+Millard Fillmore,"December 13, 1850",1.89473684210526
+Millard Fillmore,"December 13, 1850",2.8
+Millard Fillmore,"December 02, 1851",0.806451612903226
+Millard Fillmore,"December 02, 1850",0.73936170212766
+Millard Fillmore,"February 19, 1851",-0.0131578947368421
+Millard Fillmore,"December 06, 1852",1.01293103448276
+Franklin Pierce,"December 02, 1856",0.265217391304348
+Franklin Pierce,"August 21, 1856",-0.326086956521739
+Franklin Pierce,"February 11, 1856",-0.1
+Franklin Pierce,"December 31, 1855",0.3
+Franklin Pierce,"December 30, 1854",1.3963963963964
+Franklin Pierce,"December 04, 1854",0.188
+Franklin Pierce,"August 04, 1854",0.736842105263158
+Franklin Pierce,"August 01, 1854",0.333333333333333
+Franklin Pierce,"March 14, 1854",0.647058823529412
+Franklin Pierce,"February 10, 1854",1.13636363636364
+Franklin Pierce,"March 04, 1853",0.833333333333333
+Franklin Pierce,"December 05, 1853",1.1304347826087
+Franklin Pierce,"January 18, 1854",-0.727272727272727
+Franklin Pierce,"May 15, 1854",1.08219178082192
+Franklin Pierce,"January 24, 1856",0.142857142857143
+James Buchanan,"January 08, 1861",-0.116883116883117
+James Buchanan,"December 03, 1860",0.461818181818182
+James Buchanan,"January 28, 1861",0.769230769230769
+James Buchanan,"June 22, 1860",-0.27906976744186
+James Buchanan,"May 19, 1860",0.705882352941177
+James Buchanan,"March 28, 1860",-0.506493506493506
+James Buchanan,"February 24, 1859",1.05194805194805
+James Buchanan,"February 18, 1859",-0.976744186046512
+James Buchanan,"December 06, 1858",0.441935483870968
+James Buchanan,"February 02, 1858",-0.121212121212121
+James Buchanan,"March 04, 1857",1.15384615384615
+James Buchanan,"December 08, 1857",0.345724907063197
+James Buchanan,"December 19, 1859",0.316363636363636
+James Buchanan,"March 01, 1861",-0.0476190476190476
+Abraham Lincoln,"January 01, 1863",1.52941176470588
+Abraham Lincoln,"July 04, 1861",0.0448717948717949
+Abraham Lincoln,"December 03, 1861",0.987730061349693
+Abraham Lincoln,"March 04, 1865",-0.193548387096774
+Abraham Lincoln,"December 06, 1864",0.624161073825503
+Abraham Lincoln,"December 08, 1863",0.340909090909091
+Abraham Lincoln,"August 26, 1863",-0.442622950819672
+Abraham Lincoln,"December 01, 1862",0.392045454545455
+Abraham Lincoln,"February 11, 1861",1.28571428571429
+Abraham Lincoln,"February 27, 1860",-2.60264900662252
+Abraham Lincoln,"June 16, 1858",-0.345679012345679
+Abraham Lincoln,"October 16, 1854",-2.28519855595668
+Abraham Lincoln,"March 04, 1861",-0.229357798165138
+Abraham Lincoln,"November 19, 1863",-0.266666666666667
+Andrew Johnson,"April 17, 1865",1.11111111111111
+Andrew Johnson,"April 29, 1865",0.416666666666667
+Andrew Johnson,"May 02, 1865",0.166666666666667
+Andrew Johnson,"May 29, 1865",2
+Andrew Johnson,"June 02, 1865",-0.666666666666667
+Andrew Johnson,"June 06, 1865",-2.42857142857143
+Andrew Johnson,"December 04, 1865",0.902325581395349
+Andrew Johnson,"December 18, 1865",0.793103448275862
+Andrew Johnson,"February 19, 1866",0.450980392156863
+Andrew Johnson,"March 27, 1866",-0.0645161290322581
+Andrew Johnson,"July 20, 1868",-0.645161290322581
+Andrew Johnson,"July 18, 1868",0.787234042553192
+Andrew Johnson,"June 20, 1868",-0.184210526315789
+Andrew Johnson,"March 25, 1868",-0.2
+Andrew Johnson,"February 22, 1868",-0.755555555555556
+Andrew Johnson,"February 11, 1868",0.148648648648649
+Andrew Johnson,"December 12, 1867",-0.630630630630631
+Andrew Johnson,"December 03, 1867",0.229508196721311
+Andrew Johnson,"September 07, 1867",0.806451612903226
+Andrew Johnson,"July 19, 1867",0.484375
+Andrew Johnson,"June 20, 1867",-1.24242424242424
+Andrew Johnson,"May 29, 1865",0.392857142857143
+Andrew Johnson,"July 24, 1866",1.22222222222222
+Andrew Johnson,"August 20, 1866",1.03125
+Andrew Johnson,"April 02, 1866",0.758620689655172
+Andrew Johnson,"December 03, 1866",0.940217391304348
+Andrew Johnson,"January 28, 1867",0.229508196721311
+Andrew Johnson,"January 29, 1867",0.48936170212766
+Andrew Johnson,"March 02, 1867",-0.428571428571429
+Andrew Johnson,"March 23, 1867",-0.0476190476190476
+Andrew Johnson,"December 08, 1868",0.488372093023256
+Ulysses S. Grant,"January 29, 1877",0.486486486486487
+Ulysses S. Grant,"June 26, 1876",2
+Ulysses S. Grant,"May 04, 1876",0.82051282051282
+Ulysses S. Grant,"December 07, 1875",0.775862068965517
+Ulysses S. Grant,"April 18, 1875",0.65
+Ulysses S. Grant,"January 14, 1875",1.09375
+Ulysses S. Grant,"December 07, 1874",0.462264150943396
+Ulysses S. Grant,"September 15, 1874",1.11111111111111
+Ulysses S. Grant,"April 22, 1874",0.954545454545455
+Ulysses S. Grant,"December 01, 1873",1.20304568527919
+Ulysses S. Grant,"March 04, 1869",1.01960784313725
+Ulysses S. Grant,"April 07, 1869",1.56521739130435
+Ulysses S. Grant,"May 14, 1869",1.05882352941176
+Ulysses S. Grant,"May 19, 1869",3.66666666666667
+Ulysses S. Grant,"December 06, 1869",1.12269938650307
+Ulysses S. Grant,"March 30, 1870",2.5
+Ulysses S. Grant,"May 24, 1870",0.466666666666667
+Ulysses S. Grant,"May 31, 1870",0.179487179487179
+Ulysses S. Grant,"June 13, 1870",-0.766666666666667
+Ulysses S. Grant,"July 14, 1870",1.11009174311927
+Ulysses S. Grant,"August 22, 1870",-0.470588235294118
+Ulysses S. Grant,"January 13, 1875",-1.20740740740741
+Ulysses S. Grant,"December 05, 1876",1.04137931034483
+Rutherford B. Hayes,"March 05, 1877",1.47727272727273
+Rutherford B. Hayes,"June 22, 1877",0.333333333333333
+Rutherford B. Hayes,"July 18, 1877",-1.07692307692308
+Rutherford B. Hayes,"February 08, 1878",1.24242424242424
+Rutherford B. Hayes,"December 02, 1878",1.3021978021978
+Rutherford B. Hayes,"April 26, 1879",-0.285714285714286
+Rutherford B. Hayes,"April 29, 1879",0.425925925925926
+Rutherford B. Hayes,"May 12, 1879",1.08510638297872
+Rutherford B. Hayes,"May 29, 1879",1.16438356164384
+Rutherford B. Hayes,"March 03, 1881",-0.205882352941176
+Rutherford B. Hayes,"June 15, 1880",0.0615384615384615
+Rutherford B. Hayes,"March 08, 1880",1.83333333333333
+Rutherford B. Hayes,"December 01, 1879",1.46606334841629
+Rutherford B. Hayes,"December 03, 1877",1.16600790513834
+Rutherford B. Hayes,"March 01, 1879",1.64556962025316
+Rutherford B. Hayes,"December 06, 1880",1.7175572519084
+Grover Cleveland,"January 11, 1897",0.576923076923077
+Grover Cleveland,"December 07, 1896",0.804804804804805
+Grover Cleveland,"July 27, 1896",0.705882352941177
+Grover Cleveland,"December 20, 1895",0.0740740740740741
+Grover Cleveland,"December 17, 1895",0.65
+Grover Cleveland,"December 02, 1895",0.700280112044818
+Grover Cleveland,"June 12, 1895",0.8125
+Grover Cleveland,"June 12, 1895",0.8125
+Grover Cleveland,"February 08, 1895",0.714285714285714
+Grover Cleveland,"January 28, 1895",0.725
+Grover Cleveland,"December 03, 1894",0.739273927392739
+James A. Garfield,"March 04, 1881",0.135338345864662
+Chester A. Arthur,"December 10, 1884",1.05555555555556
+Chester A. Arthur,"July 01, 1884",-0.6
+Chester A. Arthur,"December 04, 1883",0.638888888888889
+Chester A. Arthur,"December 04, 1882",0.762626262626263
+Chester A. Arthur,"August 01, 1882",0.666666666666667
+Chester A. Arthur,"July 01, 1882",-0.05
+Chester A. Arthur,"April 18, 1882",0.209677419354839
+Chester A. Arthur,"December 06, 1881",1.16304347826087
+Chester A. Arthur,"September 22, 1881",-0.21875
+Chester A. Arthur,"April 04, 1882",0.787878787878788
+Chester A. Arthur,"December 01, 1884",1.13793103448276
+Grover Cleveland,"March 04, 1885",1.05405405405405
+Grover Cleveland,"December 08, 1885",1.03580562659847
+Grover Cleveland,"March 01, 1886",0.0645161290322581
+Grover Cleveland,"April 22, 1886",0.0882352941176471
+Grover Cleveland,"May 08, 1886",0.451612903225806
+Grover Cleveland,"May 11, 1886",2.05
+Grover Cleveland,"July 14, 1886",-0.357142857142857
+Grover Cleveland,"December 06, 1886",1.26537216828479
+Grover Cleveland,"February 11, 1887",-0.0825688073394495
+Grover Cleveland,"February 16, 1887",-0.238095238095238
+Grover Cleveland,"December 06, 1887",0.426470588235294
+Grover Cleveland,"March 04, 1893",0.564814814814815
+Grover Cleveland,"December 03, 1888",0.88125
+Grover Cleveland,"August 08, 1893",-0.118279569892473
+Grover Cleveland,"December 04, 1893",0.634920634920635
+Grover Cleveland,"March 29, 1894",0.826666666666667
+Grover Cleveland,"March 02, 1897",0.20253164556962
+Benjamin Harrison,"March 04, 1889",0.941176470588235
+Benjamin Harrison,"April 04, 1889",2.54545454545455
+Benjamin Harrison,"December 03, 1889",0.904761904761905
+Benjamin Harrison,"April 19, 1890",1.61538461538462
+Benjamin Harrison,"May 30, 1890",0.857142857142857
+Benjamin Harrison,"June 19, 1890",1.30769230769231
+Benjamin Harrison,"October 23, 1890",4.33333333333333
+Benjamin Harrison,"December 01, 1890",1.27659574468085
+Benjamin Harrison,"December 01, 1890",1.27659574468085
+Benjamin Harrison,"June 04, 1889",-0.736842105263158
+Benjamin Harrison,"December 09, 1891",0.813333333333333
+Benjamin Harrison,"July 08, 1894",-0.952380952380952
+Benjamin Harrison,"December 18, 1893",1.12162162162162
+Benjamin Harrison,"August 08, 1893",-0.350515463917526
+Benjamin Harrison,"December 06, 1892",1.264
+Benjamin Harrison,"December 06, 1892",1.264
+Benjamin Harrison,"September 03, 1892",0.916201117318436
+Benjamin Harrison,"January 28, 1892",0.833333333333333
+Benjamin Harrison,"January 25, 1892",-1.01273885350318
+Benjamin Harrison,"December 09, 1891",0.813333333333333
+Benjamin Harrison,"December 03, 1889",0.912087912087912
+Benjamin Harrison,"January 31, 1891",-1.16666666666667
+Benjamin Harrison,"February 15, 1893",0.925925925925926
+William McKinley,"December 03, 1900",1.84477611940299
+William McKinley,"July 12, 1900",1.05434782608696
+William McKinley,"December 05, 1899",1.92957746478873
+William McKinley,"December 05, 1898",1.15186246418338
+William McKinley,"April 23, 1898",1
+William McKinley,"April 22, 1898",0.625
+William McKinley,"December 06, 1897",0.286245353159851
+William McKinley,"July 24, 1897",0.464285714285714
+William McKinley,"May 17, 1897",0.666666666666667
+William McKinley,"April 11, 1898",-0.274285714285714
+William McKinley,"March 04, 1901",0.715789473684211
+William McKinley,"September 05, 1901",0.840425531914894
+Theodore Roosevelt,"December 09, 1908",-0.0964187327823691
+Theodore Roosevelt,"March 25, 1908",-0.0694444444444444
+Theodore Roosevelt,"December 03, 1907",0.317567567567568
+Theodore Roosevelt,"December 19, 1906",-1.53174603174603
+Theodore Roosevelt,"December 17, 1906",0.296116504854369
+Theodore Roosevelt,"December 11, 1906",1.15384615384615
+Theodore Roosevelt,"December 03, 1906",-0.120454545454545
+Theodore Roosevelt,"June 04, 1906",-0.148148148148148
+Theodore Roosevelt,"December 05, 1905",0.750605326876513
+Theodore Roosevelt,"December 06, 1904",0.640117994100295
+Theodore Roosevelt,"September 14, 1901",-0.142857142857143
+Theodore Roosevelt,"December 03, 1901",0.873385012919897
+Theodore Roosevelt,"June 13, 1902",1.02325581395349
+Theodore Roosevelt,"December 02, 1902",0.639130434782609
+Theodore Roosevelt,"October 20, 1903",3.5
+Theodore Roosevelt,"November 10, 1903",1.625
+Theodore Roosevelt,"November 16, 1903",1.06086956521739
+Theodore Roosevelt,"December 07, 1903",0.854092526690391
+Theodore Roosevelt,"December 07, 1903",1.34
+Theodore Roosevelt,"February 11, 1904",-0.911764705882353
+Theodore Roosevelt,"March 04, 1905",0.666666666666667
+Theodore Roosevelt,"January 08, 1906",0.26530612244898
+William Taft,"January 14, 1910",0.971014492753623
+William Taft,"January 07, 1910",-0.282051282051282
+William Taft,"December 06, 1910",1.87202380952381
+William Taft,"January 26, 1911",1.20967741935484
+William Taft,"January 26, 1911",1.20967741935484
+William Taft,"December 05, 1911",1.26708074534161
+William Taft,"December 07, 1909",1.58108108108108
+William Taft,"June 16, 1909",0.6
+William Taft,"March 16, 1909",0.6
+William Taft,"March 04, 1909",0.938356164383562
+William Taft,"November 17, 1909",0.674242424242424
+William Taft,"December 03, 1912",1.51344086021505
+Woodrow Wilson,"December 07, 1920",0.662790697674419
+Woodrow Wilson,"December 02, 1919",0.474025974025974
+Woodrow Wilson,"December 02, 1918",0.993548387096774
+Woodrow Wilson,"December 04, 1917",-0.0422535211267606
+Woodrow Wilson,"May 18, 1917",-0.5
+Woodrow Wilson,"April 06, 1917",-0.439024390243902
+Woodrow Wilson,"April 02, 1917",0.213740458015267
+Woodrow Wilson,"March 05, 1917",1.11538461538462
+Woodrow Wilson,"February 26, 1917",0.183673469387755
+Woodrow Wilson,"February 03, 1917",-0.338983050847458
+Woodrow Wilson,"March 04, 1913",0.0533333333333333
+Woodrow Wilson,"April 08, 1913",0.675
+Woodrow Wilson,"June 23, 1913",0.974358974358974
+Woodrow Wilson,"July 04, 1913",0.924528301886792
+Woodrow Wilson,"October 25, 1913",0.666666666666667
+Woodrow Wilson,"December 02, 1913",1.15957446808511
+Woodrow Wilson,"January 20, 1914",0.542168674698795
+Woodrow Wilson,"April 20, 1914",-0.316666666666667
+Woodrow Wilson,"May 30, 1914",2.08823529411765
+Woodrow Wilson,"July 04, 1914",0.242105263157895
+Woodrow Wilson,"August 19, 1914",0.918918918918919
+Woodrow Wilson,"April 16, 1917",0.782608695652174
+Woodrow Wilson,"January 08, 1918",1.56
+Warren G. Harding,"January 20, 1920",0.703703703703704
+Warren G. Harding,"September 11, 1919",0.606060606060606
+Warren G. Harding,"May 14, 1920",-0.032258064516129
+Warren G. Harding,"June 12, 1920",0.560165975103734
+Warren G. Harding,"July 22, 1920",-1.13888888888889
+Warren G. Harding,"July 22, 1920",0.133333333333333
+Warren G. Harding,"July 22, 1920",1.26086956521739
+Warren G. Harding,"July 22, 1920",-0.227272727272727
+Warren G. Harding,"July 22, 1920",0.96875
+Warren G. Harding,"August 25, 1920",0.782608695652174
+Warren G. Harding,"August 28, 1920",1.17391304347826
+Warren G. Harding,"December 08, 1922",-0.172972972972973
+Warren G. Harding,"December 06, 1921",0.287292817679558
+Warren G. Harding,"May 23, 1921",0.0625
+Warren G. Harding,"March 04, 1921",0.755395683453237
+Warren G. Harding,"March 31, 1921",0.964285714285714
+Warren G. Harding,"November 12, 1921",0.386363636363636
+Calvin Coolidge,"December 06, 1923",1.1436170212766
+Calvin Coolidge,"December 03, 1924",1.09550561797753
+Calvin Coolidge,"July 03, 1925",0.712707182320442
+Calvin Coolidge,"December 08, 1925",1.32743362831858
+Calvin Coolidge,"July 05, 1926",1.38461538461538
+Calvin Coolidge,"December 07, 1926",1.15021459227468
+Calvin Coolidge,"February 22, 1927",1.61157024793388
+Calvin Coolidge,"December 06, 1927",0.767772511848341
+Calvin Coolidge,"December 04, 1928",1.24607329842932
+Calvin Coolidge,"March 04, 1925",1.36065573770492
+Calvin Coolidge,"October 20, 1925",0.118279569892473
+Calvin Coolidge,"August 10, 1927",2.15909090909091
+Herbert Hoover,"December 06, 1932",0.0265486725663717
+Herbert Hoover,"November 05, 1932",-0.305555555555556
+Herbert Hoover,"October 28, 1932",-0.0209424083769633
+Herbert Hoover,"October 21, 1932",0.655172413793103
+Herbert Hoover,"May 31, 1932",0.452054794520548
+Herbert Hoover,"December 11, 1931",0.333333333333333
+Herbert Hoover,"December 08, 1931",0.467625899280576
+Herbert Hoover,"October 18, 1931",0.196078431372549
+Herbert Hoover,"September 22, 1931",0.55
+Herbert Hoover,"June 21, 1931",0.5
+Herbert Hoover,"February 26, 1931",-0.027027027027027
+Herbert Hoover,"October 25, 1929",1
+Herbert Hoover,"September 18, 1929",0.434782608695652
+Herbert Hoover,"November 05, 1929",-1.23809523809524
+Herbert Hoover,"November 19, 1929",-0.304347826086957
+Herbert Hoover,"December 03, 1929",1.30875576036866
+Herbert Hoover,"March 07, 1930",-1.4
+Herbert Hoover,"April 28, 1930",-0.521739130434783
+Herbert Hoover,"June 16, 1930",0.976744186046512
+Herbert Hoover,"July 07, 1930",0.672727272727273
+Herbert Hoover,"October 02, 1930",0.204081632653061
+Herbert Hoover,"December 09, 1930",0.25
+Herbert Hoover,"December 02, 1930",0.614583333333333
+Herbert Hoover,"February 03, 1931",0.372881355932203
+Herbert Hoover,"August 11, 1932",0.0272727272727273
+Franklin D. Roosevelt,"March 01, 1945",0.882352941176471
+Franklin D. Roosevelt,"February 11, 1945",0.647058823529412
+Franklin D. Roosevelt,"January 20, 1945",1.16666666666667
+Franklin D. Roosevelt,"July 20, 1944",0.814814814814815
+Franklin D. Roosevelt,"June 12, 1944",-0.824561403508772
+Franklin D. Roosevelt,"June 05, 1944",0.470588235294118
+Franklin D. Roosevelt,"January 11, 1944",-0.135135135135135
+Franklin D. Roosevelt,"December 24, 1943",0.890909090909091
+Franklin D. Roosevelt,"December 01, 1943",0.142857142857143
+Franklin D. Roosevelt,"September 08, 1943",-1.08163265306122
+Franklin D. Roosevelt,"July 28, 1943",-0.106796116504854
+Franklin D. Roosevelt,"May 02, 1943",-0.535211267605634
+Franklin D. Roosevelt,"March 04, 1933",0.329268292682927
+Franklin D. Roosevelt,"March 12, 1933",1.01923076923077
+Franklin D. Roosevelt,"May 07, 1933",0.0952380952380952
+Franklin D. Roosevelt,"July 24, 1933",0.282608695652174
+Franklin D. Roosevelt,"October 22, 1933",0.671875
+Franklin D. Roosevelt,"June 28, 1934",0.746987951807229
+Franklin D. Roosevelt,"September 30, 1934",0.583333333333333
+Franklin D. Roosevelt,"April 28, 1935",-0.115384615384615
+Franklin D. Roosevelt,"June 27, 1936",1.17391304347826
+Franklin D. Roosevelt,"September 06, 1936",0.464285714285714
+Franklin D. Roosevelt,"October 31, 1936",-0.0198019801980198
+Franklin D. Roosevelt,"March 09, 1937",0.272727272727273
+Franklin D. Roosevelt,"January 20, 1937",0.447916666666667
+Franklin D. Roosevelt,"October 05, 1937",0.617021276595745
+Franklin D. Roosevelt,"October 12, 1937",0.139784946236559
+Franklin D. Roosevelt,"November 14, 1937",0.26530612244898
+Franklin D. Roosevelt,"April 14, 1938",0.333333333333333
+Franklin D. Roosevelt,"June 24, 1938",0.407766990291262
+Franklin D. Roosevelt,"July 08, 1938",0.755102040816326
+Franklin D. Roosevelt,"September 03, 1939",0.447368421052632
+Franklin D. Roosevelt,"May 26, 1940",-0.273504273504274
+Franklin D. Roosevelt,"June 10, 1940",-0.119402985074627
+Franklin D. Roosevelt,"July 19, 1940",0.118181818181818
+Franklin D. Roosevelt,"December 08, 1941",-0.36
+Franklin D. Roosevelt,"September 11, 1941",-1.07216494845361
+Franklin D. Roosevelt,"December 09, 1941",-0.726495726495726
+Franklin D. Roosevelt,"December 11, 1941",-0.4
+Franklin D. Roosevelt,"February 23, 1942",-0.525423728813559
+Franklin D. Roosevelt,"April 28, 1942",-0.827272727272727
+Franklin D. Roosevelt,"September 07, 1942",-0.763636363636364
+Franklin D. Roosevelt,"October 12, 1942",0.0526315789473684
+Franklin D. Roosevelt,"January 07, 1943",-0.267515923566879
+Harry S. Truman,"May 08, 1945",0.652173913043478
+Harry S. Truman,"August 06, 1945",-0.479166666666667
+Harry S. Truman,"August 09, 1945",0.5
+Harry S. Truman,"September 01, 1945",0.323943661971831
+Harry S. Truman,"October 27, 1945",1
+Harry S. Truman,"June 29, 1947",1.12676056338028
+Harry S. Truman,"July 15, 1948",0.523809523809524
+Harry S. Truman,"September 18, 1948",1.77272727272727
+Harry S. Truman,"September 18, 1948",0.55
+Harry S. Truman,"January 15, 1953",0.428571428571429
+Harry S. Truman,"October 22, 1952",0.52
+Harry S. Truman,"March 29, 1952",0.151260504201681
+Harry S. Truman,"March 15, 1952",1.31111111111111
+Harry S. Truman,"April 11, 1951",-0.988888888888889
+Harry S. Truman,"January 20, 1949",1.81308411214953
+Harry S. Truman,"November 03, 1948",2.5
+Harry S. Truman,"April 16, 1945",1.13207547169811
+Harry S. Truman,"March 12, 1947",0.359550561797753
+Harry S. Truman,"June 20, 1947",-0.342105263157895
+Richard M. Nixon,"September 23, 1952",-0.168831168831169
+Dwight D. Eisenhower,"August 23, 1956",1.25190839694656
+Dwight D. Eisenhower,"December 08, 1953",1.16101694915254
+Dwight D. Eisenhower,"April 16, 1953",0.832116788321168
+Dwight D. Eisenhower,"January 20, 1953",1.25438596491228
+Dwight D. Eisenhower,"January 05, 1957",1.19047619047619
+Dwight D. Eisenhower,"January 17, 1961",0.189473684210526
+John F. Kennedy,"October 22, 1962",-0.0470588235294118
+John F. Kennedy,"June 10, 1963",0.680851063829787
+John F. Kennedy,"June 26, 1963",2.16
+John F. Kennedy,"October 26, 1963",1.32467532467532
+John F. Kennedy,"September 26, 1963",0.720338983050847
+John F. Kennedy,"September 20, 1963",0.850393700787402
+John F. Kennedy,"July 26, 1963",-0.375
+John F. Kennedy,"June 05, 1963",1.19402985074627
+John F. Kennedy,"May 18, 1963",0.650602409638554
+John F. Kennedy,"January 14, 1963",0.767195767195767
+John F. Kennedy,"September 30, 1962",1.10416666666667
+John F. Kennedy,"January 20, 1961",0.373333333333333
+John F. Kennedy,"January 09, 1961",1.03030303030303
+John F. Kennedy,"January 30, 1961",0.707070707070707
+John F. Kennedy,"February 21, 1961",2.75862068965517
+John F. Kennedy,"March 01, 1961",2.66666666666667
+John F. Kennedy,"March 13, 1961",1.42682926829268
+John F. Kennedy,"April 20, 1961",-0.701492537313433
+John F. Kennedy,"April 27, 1961",-0.758620689655172
+John F. Kennedy,"May 03, 1961",1.10526315789474
+John F. Kennedy,"May 17, 1961",1.34313725490196
+John F. Kennedy,"June 06, 1961",1.68253968253968
+John F. Kennedy,"May 25, 1961",0.769230769230769
+John F. Kennedy,"June 07, 1961",0.703703703703704
+John F. Kennedy,"July 25, 1961",0.25
+John F. Kennedy,"September 25, 1961",0.284153005464481
+John F. Kennedy,"October 12, 1961",0.954545454545455
+John F. Kennedy,"November 11, 1961",-0.442307692307692
+John F. Kennedy,"November 16, 1961",0.316831683168317
+John F. Kennedy,"December 06, 1961",1.37888198757764
+John F. Kennedy,"December 07, 1961",2.43333333333333
+John F. Kennedy,"December 11, 1961",2
+John F. Kennedy,"June 11, 1963",0.315068493150685
+Lyndon B. Johnson,"March 15, 1965",0.0387596899224806
+Lyndon B. Johnson,"August 06, 1965",0.445945945945946
+Lyndon B. Johnson,"March 31, 1968",0.746575342465753
+Lyndon B. Johnson,"January 14, 1969",1.703125
+Lyndon B. Johnson,"October 31, 1968",1.55882352941176
+Lyndon B. Johnson,"July 01, 1968",0.892857142857143
+Lyndon B. Johnson,"April 11, 1968",0.36
+Lyndon B. Johnson,"April 03, 1968",1.16666666666667
+Lyndon B. Johnson,"April 01, 1968",0.395604395604396
+Lyndon B. Johnson,"January 17, 1968",1.19480519480519
+Lyndon B. Johnson,"December 19, 1967",0.23030303030303
+Lyndon B. Johnson,"November 17, 1967",-0.267175572519084
+Lyndon B. Johnson,"September 29, 1967",-0.234234234234234
+Lyndon B. Johnson,"August 18, 1967",0
+Lyndon B. Johnson,"November 27, 1963",0.584415584415584
+Lyndon B. Johnson,"May 30, 1963",0.361111111111111
+Lyndon B. Johnson,"November 28, 1963",3.22727272727273
+Lyndon B. Johnson,"December 17, 1963",0.985915492957746
+Lyndon B. Johnson,"January 08, 1964",0.636363636363636
+Lyndon B. Johnson,"February 01, 1964",1.2967032967033
+Lyndon B. Johnson,"February 21, 1964",1.12121212121212
+Lyndon B. Johnson,"February 29, 1964",2.15384615384615
+Lyndon B. Johnson,"March 07, 1964",1.45
+Lyndon B. Johnson,"April 16, 1964",1.46363636363636
+Lyndon B. Johnson,"April 20, 1964",1.31325301204819
+Lyndon B. Johnson,"May 06, 1964",1.29411764705882
+Lyndon B. Johnson,"July 02, 1964",1.3
+Lyndon B. Johnson,"May 22, 1964",0.378378378378378
+Lyndon B. Johnson,"July 24, 1964",1.40740740740741
+Lyndon B. Johnson,"August 04, 1964",0.46875
+Lyndon B. Johnson,"August 05, 1964",-0.0833333333333333
+Lyndon B. Johnson,"August 27, 1964",2.90243902439024
+Lyndon B. Johnson,"October 09, 1964",0.574468085106383
+Lyndon B. Johnson,"October 18, 1964",0.373333333333333
+Lyndon B. Johnson,"January 04, 1965",0.766081871345029
+Lyndon B. Johnson,"February 04, 1965",2.10344827586207
+Lyndon B. Johnson,"March 13, 1965",0.3
+Lyndon B. Johnson,"January 20, 1965",0.405405405405405
+Lyndon B. Johnson,"March 20, 1965",1.60714285714286
+Lyndon B. Johnson,"March 26, 1965",3.18518518518519
+Lyndon B. Johnson,"March 26, 1965",-0.152173913043478
+Lyndon B. Johnson,"April 07, 1965",0.0677966101694915
+Lyndon B. Johnson,"April 27, 1965",-0.3671875
+Lyndon B. Johnson,"April 28, 1965",0
+Lyndon B. Johnson,"May 02, 1965",-0.113636363636364
+Richard M. Nixon,"April 29, 1974",0.0116279069767442
+Richard M. Nixon,"February 25, 1974",0.0816326530612245
+Richard M. Nixon,"January 30, 1974",0.946969696969697
+Richard M. Nixon,"August 15, 1973",-0.114035087719298
+Richard M. Nixon,"January 23, 1973",2.05
+Richard M. Nixon,"January 20, 1973",1.76470588235294
+Richard M. Nixon,"November 07, 1972",2.65384615384615
+Richard M. Nixon,"November 06, 1972",1.45454545454545
+Richard M. Nixon,"May 08, 1972",-1.10714285714286
+Richard M. Nixon,"January 20, 1969",1.10204081632653
+Richard M. Nixon,"November 03, 1969",-0.2
+Richard M. Nixon,"January 22, 1970",0.726114649681529
+Richard M. Nixon,"January 22, 1971",1.12096774193548
+Richard M. Nixon,"February 25, 1971",0.992125984251969
+Richard M. Nixon,"April 07, 1971",-0.28735632183908
+Richard M. Nixon,"May 20, 1971",1
+Richard M. Nixon,"January 20, 1972",0.615942028985507
+Richard M. Nixon,"January 25, 1972",-0.462686567164179
+Richard M. Nixon,"April 30, 1970",-0.612244897959184
+Richard M. Nixon,"August 09, 1974",0.589285714285714
+Gerald Ford,"January 12, 1977",1.04519774011299
+Gerald Ford,"January 19, 1976",0.258620689655172
+Gerald Ford,"December 07, 1975",2.03703703703704
+Gerald Ford,"August 01, 1975",1.46808510638298
+Gerald Ford,"May 27, 1975",0.127659574468085
+Gerald Ford,"April 23, 1975",1.10126582278481
+Gerald Ford,"January 15, 1975",0.453846153846154
+Gerald Ford,"October 08, 1974",0.569105691056911
+Gerald Ford,"September 18, 1974",0.897727272727273
+Gerald Ford,"September 16, 1974",0.44
+Gerald Ford,"September 08, 1974",0.230769230769231
+Gerald Ford,"August 09, 1974",1.92307692307692
+Gerald Ford,"April 10, 1975",0.712871287128713
+Gerald Ford,"August 19, 1976",1.16528925619835
+Jimmy Carter,"September 17, 1978",1.68571428571429
+Jimmy Carter,"January 14, 1981",-0.0202020202020202
+Jimmy Carter,"August 14, 1980",1.07432432432432
+Jimmy Carter,"April 25, 1980",0.711111111111111
+Jimmy Carter,"January 23, 1980",0.788321167883212
+Jimmy Carter,"January 04, 1980",0.849056603773585
+Jimmy Carter,"January 23, 1979",1.39333333333333
+Jimmy Carter,"December 15, 1978",2.14285714285714
+Jimmy Carter,"October 24, 1978",0.233644859813084
+Jimmy Carter,"January 19, 1978",0.647058823529412
+Jimmy Carter,"January 20, 1977",1.02702702702703
+Jimmy Carter,"October 22, 1976",0.244444444444444
+Jimmy Carter,"February 02, 1977",0.391304347826087
+Jimmy Carter,"March 09, 1977",0.239130434782609
+Jimmy Carter,"April 18, 1977",-0.0833333333333333
+Jimmy Carter,"May 22, 1977",0.698412698412698
+Jimmy Carter,"September 07, 1977",2.23809523809524
+Jimmy Carter,"November 08, 1977",0.853658536585366
+Jimmy Carter,"July 15, 1979",0.412587412587413
+Jimmy Carter,"October 28, 1980",0.074235807860262
+Ronald Reagan,"March 04, 1987",0.645161290322581
+Ronald Reagan,"January 27, 1987",0.820689655172414
+Ronald Reagan,"December 08, 1987",0.431818181818182
+Ronald Reagan,"December 10, 1987",0.909090909090909
+Ronald Reagan,"January 25, 1988",1.22085889570552
+Ronald Reagan,"May 31, 1988",0.965116279069767
+Ronald Reagan,"August 15, 1988",1.02564102564103
+Ronald Reagan,"September 26, 1988",0.641025641025641
+Ronald Reagan,"November 11, 1988",1.71428571428571
+Ronald Reagan,"December 16, 1988",1.34969325153374
+Ronald Reagan,"January 11, 1989",0.9
+Ronald Reagan,"January 20, 1981",1.11340206185567
+Ronald Reagan,"July 17, 1980",0.311764705882353
+Ronald Reagan,"January 29, 1981",0.25
+Ronald Reagan,"April 28, 1981",0.689655172413793
+Ronald Reagan,"May 17, 1981",0.809090909090909
+Ronald Reagan,"June 29, 1981",0.622222222222222
+Ronald Reagan,"July 27, 1981",0.357894736842105
+Ronald Reagan,"August 03, 1981",-0.58
+Ronald Reagan,"November 18, 1981",0.929203539823009
+Ronald Reagan,"December 23, 1981",0.425742574257426
+Ronald Reagan,"January 26, 1982",0.652941176470588
+Ronald Reagan,"June 08, 1982",0.3
+Ronald Reagan,"March 08, 1983",0.359154929577465
+Ronald Reagan,"February 18, 1983",-0.191011235955056
+Ronald Reagan,"March 23, 1983",0.309859154929577
+Ronald Reagan,"April 27, 1983",-0.0533333333333333
+Ronald Reagan,"September 05, 1983",-1.0873786407767
+Ronald Reagan,"October 27, 1983",0.153846153846154
+Ronald Reagan,"November 02, 1983",0.264705882352941
+Ronald Reagan,"November 04, 1983",0.836363636363636
+Ronald Reagan,"January 25, 1984",1.87027027027027
+Ronald Reagan,"January 29, 1984",0.756756756756757
+Ronald Reagan,"May 28, 1984",1.58333333333333
+Ronald Reagan,"June 03, 1984",3.82857142857143
+Ronald Reagan,"June 12, 1987",1.28125
+George H. W. Bush,"January 05, 1993",0.830508474576271
+George H. W. Bush,"December 15, 1992",0.53416149068323
+George H. W. Bush,"December 04, 1992",0.173913043478261
+George H. W. Bush,"October 11, 1992",0.172413793103448
+George H. W. Bush,"August 20, 1992",0.566433566433566
+George H. W. Bush,"January 28, 1992",0.367816091954023
+George H. W. Bush,"July 31, 1991",2.74
+George H. W. Bush,"March 06, 1991",0.14018691588785
+George H. W. Bush,"January 29, 1991",0.384146341463415
+George H. W. Bush,"January 16, 1991",0.26027397260274
+George H. W. Bush,"October 02, 1990",-0.428571428571429
+George H. W. Bush,"January 20, 1989",1.98591549295775
+George H. W. Bush,"September 25, 1988",0.758333333333333
+George H. W. Bush,"February 09, 1989",0.952662721893491
+George H. W. Bush,"May 12, 1989",0.8
+George H. W. Bush,"January 31, 1990",1.47413793103448
+George H. W. Bush,"July 26, 1990",1.91111111111111
+George H. W. Bush,"August 08, 1990",-0.0166666666666667
+George H. W. Bush,"September 11, 1990",0.37410071942446
+George H. W. Bush,"October 01, 1990",0.928571428571429
+George H. W. Bush,"December 20, 1989",-0.0952380952380952
+George H. W. Bush,"February 27, 1991",-0.105263157894737
+Bill Clinton,"April 23, 1995",-0.795454545454545
+Bill Clinton,"January 18, 2001",1.44186046511628
+Bill Clinton,"January 27, 2000",1.11440677966102
+Bill Clinton,"June 10, 1999",-0.130434782608696
+Bill Clinton,"March 24, 1999",-0.222222222222222
+Bill Clinton,"January 19, 1999",1.13302752293578
+Bill Clinton,"March 25, 1998",0.00980392156862745
+Bill Clinton,"March 23, 1998",1.18461538461538
+Bill Clinton,"January 27, 1998",1.44615384615385
+Bill Clinton,"January 26, 1998",0.733333333333333
+Bill Clinton,"April 22, 1997",0.488888888888889
+Bill Clinton,"February 04, 1997",0.847368421052632
+Bill Clinton,"January 20, 1993",0.589041095890411
+Bill Clinton,"January 29, 1993",0.660377358490566
+Bill Clinton,"February 05, 1993",1.30769230769231
+Bill Clinton,"February 17, 1993",0.486338797814208
+Bill Clinton,"April 30, 1993",0.916666666666667
+Bill Clinton,"May 05, 1993",1.13513513513514
+Bill Clinton,"June 06, 1993",-0.807692307692308
+Bill Clinton,"September 13, 1993",1.01923076923077
+Bill Clinton,"September 22, 1993",0.851428571428571
+Bill Clinton,"October 07, 1993",-0.0136986301369863
+Bill Clinton,"November 13, 1993",-0.157407407407407
+Bill Clinton,"December 08, 1993",1.52564102564103
+Bill Clinton,"January 25, 1994",0.50259067357513
+Bill Clinton,"June 06, 1994",0.339285714285714
+Bill Clinton,"July 12, 1994",2.41176470588235
+Bill Clinton,"January 24, 1995",0.447826086956522
+Bill Clinton,"July 19, 1995",0.625850340136054
+Bill Clinton,"October 16, 1995",0.0993377483443709
+Bill Clinton,"November 27, 1995",0.0672268907563025
+Bill Clinton,"November 30, 1995",1.32456140350877
+Bill Clinton,"January 23, 1996",-0.113636363636364
+Bill Clinton,"August 17, 1998",0.0967741935483871
+George W. Bush,"January 15, 2009",0.707547169811321
+George W. Bush,"January 12, 2009",-0.333333333333333
+George W. Bush,"December 19, 2008",-0.36
+George W. Bush,"October 03, 2008",0.135135135135135
+George W. Bush,"March 19, 2008",-0.674418604651163
+George W. Bush,"January 28, 2008",1.0972972972973
+George W. Bush,"April 09, 2007",0.492537313432836
+George W. Bush,"January 23, 2007",0.2
+George W. Bush,"January 10, 2007",0.160714285714286
+George W. Bush,"July 19, 2006",0.306451612903226
+George W. Bush,"January 31, 2006",0.727699530516432
+George W. Bush,"January 20, 2001",0.677777777777778
+George W. Bush,"January 29, 2001",1.46341463414634
+George W. Bush,"May 11, 2001",0.806451612903226
+George W. Bush,"June 07, 2001",0.566666666666667
+George W. Bush,"August 09, 2001",0.686567164179104
+George W. Bush,"September 11, 2001",-0.363636363636364
+George W. Bush,"January 08, 2002",2.40677966101695
+George W. Bush,"January 29, 2002",-0.241176470588235
+George W. Bush,"June 01, 2002",0.107692307692308
+George W. Bush,"June 06, 2002",-0.657142857142857
+George W. Bush,"September 21, 2001",-0.106870229007634
+George W. Bush,"June 19, 2002",0.372093023255814
+George W. Bush,"September 12, 2002",-0.496551724137931
+George W. Bush,"January 28, 2003",-0.410377358490566
+George W. Bush,"March 17, 2003",-1.06741573033708
+George W. Bush,"March 19, 2003",0.116279069767442
+George W. Bush,"November 06, 2003",1.57615894039735
+George W. Bush,"November 13, 2008",0.779661016949153
+Barack Obama,"December 01, 2009",-0.317880794701987
+Barack Obama,"May 15, 2016",1.38607594936709
+Barack Obama,"March 22, 2016",1.4047619047619
+Barack Obama,"January 12, 2016",1.31924882629108
+Barack Obama,"June 26, 2015",1.70434782608696
+Barack Obama,"March 07, 2015",1.19230769230769
+Barack Obama,"January 20, 2015",1.34741784037559
+Barack Obama,"November 20, 2014",0.338028169014085
+Barack Obama,"January 28, 2014",0.782608695652174
+Barack Obama,"December 04, 2013",1.25142857142857
+Barack Obama,"September 10, 2013",-0.638297872340426
+Barack Obama,"July 24, 2013",2.12264150943396
+Barack Obama,"July 19, 2013",-0.416666666666667
+Barack Obama,"November 04, 2008",0.871794871794872
+Barack Obama,"August 28, 2008",0.611510791366906
+Barack Obama,"January 20, 2009",0.277310924369748
+Barack Obama,"January 29, 2009",0.483870967741935
+Barack Obama,"February 07, 2009",2
+Barack Obama,"February 24, 2009",0.245901639344262
+Barack Obama,"May 26, 2009",1.75438596491228
+Barack Obama,"September 09, 2009",0.158536585365854
+Barack Obama,"December 10, 2009",-0.432748538011696
+Barack Obama,"January 27, 2010",0.0407239819004525
+Barack Obama,"June 04, 2009",0.290155440414508
+Barack Obama,"February 09, 2010",1.35643564356436
+Barack Obama,"March 15, 2010",1.87058823529412
+Barack Obama,"April 15, 2010",1.925
+Barack Obama,"April 28, 2010",-0.139130434782609
+Barack Obama,"June 15, 2010",0
+Barack Obama,"August 31, 2010",0.326530612244898
+Barack Obama,"January 21, 2013",1.26
+Barack Obama,"December 16, 2012",0.773809523809524
+Barack Obama,"January 29, 2013",2.76315789473684
+Barack Obama,"February 13, 2013",1.77386934673367
+Barack Obama,"March 01, 2013",-0.423913043478261
+Barack Obama,"March 21, 2013",2.03571428571429
+Barack Obama,"April 08, 2013",0.517647058823529
+Donald Trump,"January 20, 2017",1.31884057971015
+Donald Trump,"June 29, 2017",1.37777777777778
+Donald Trump,"July 24, 2017",3.81308411214953
+Donald Trump,"September 19, 2017",0.475728155339806
+Donald Trump,"December 18, 2017",0.8
+Donald Trump,"January 26, 2018",1.09734513274336
+Donald Trump,"February 01, 2018",2.648
+Donald Trump,"February 15, 2018",-0.584905660377358
+Donald Trump,"February 23, 2018",1.2
+Donald Trump,"February 28, 2017",0.494444444444444
+Donald Trump,"March 19, 2018",0.4
+Donald Trump,"January 30, 2018",0.29064039408867
+Donald Trump,"July 24, 2018",1.79289940828402
+Donald Trump,"September 25, 2018",0.494252873563218
+Donald Trump,"January 19, 2019",0
+Donald Trump,"February 05, 2019",0.341121495327103
+Donald Trump,"February 15, 2019",-0.566433566433566
+Donald Trump,"September 24, 2019",0.638418079096045
+Andrew Jackson,"December 08, 1829",0.947368421052632
+Ronald Reagan,"September 14, 1986",0.217391304347826
+Donald Trump,"March 13, 2020",1.15909090909091
+Donald Trump,"March 11, 2020",0.0757575757575758
+Richard M. Nixon,"August 08, 1974",0.60655737704918
+Richard M. Nixon,"April 30, 1973",0.670103092783505
+George Washington,"December 07, 1796",1.06930693069307
+George Washington,"March 30, 1796",1
+George Washington,"December 08, 1795",0.635294117647059
+George Washington,"July 10, 1795",0.0526315789473684
+George Washington,"November 19, 1794",0.145833333333333
+George Washington,"September 25, 1794",0.8
+George Washington,"August 07, 1794",-0.0454545454545455
+George Washington,"December 03, 1793",0.294117647058824
+George Washington,"March 04, 1793",0.285714285714286
+George Washington,"October 03, 1789",2.38461538461538
+George Washington,"January 08, 1790",1.47619047619048
+George Washington,"December 08, 1790",0.78
+George Washington,"December 29, 1790",0.571428571428571
+George Washington,"October 25, 1791",1.30769230769231
+George Washington,"April 05, 1792",0
+George Washington,"November 06, 1792",0.732394366197183
+George Washington,"December 12, 1792",0.466666666666667
+John Adams,"December 03, 1799",0.923076923076923
+John Adams,"November 22, 1800",1.66
+John Adams,"December 08, 1798",0.685714285714286
+John Adams,"November 22, 1797",0.36
+John Adams,"May 16, 1797",0.336448598130841
+Thomas Jefferson,"April 03, 1809",1.4
+Thomas Jefferson,"November 08, 1808",0.25609756097561
+Thomas Jefferson,"October 27, 1807",0.0428571428571429
+Thomas Jefferson,"July 02, 1807",-0.323529411764706
+Thomas Jefferson,"February 10, 1807",-0.363636363636364
+Thomas Jefferson,"January 22, 1807",0.212121212121212
+Thomas Jefferson,"December 30, 1806",0.305555555555556
+Thomas Jefferson,"December 02, 1806",0.89041095890411
+Thomas Jefferson,"November 27, 1806",0.571428571428571
+Thomas Jefferson,"January 10, 1806",-0.354838709677419
+Thomas Jefferson,"December 03, 1805",0.148936170212766
+Thomas Jefferson,"July 12, 1801",0.619047619047619
+Thomas Jefferson,"December 08, 1801",0.556603773584906
+Thomas Jefferson,"January 01, 1802",1.73333333333333
+Thomas Jefferson,"November 03, 1802",1.325
+Thomas Jefferson,"December 15, 1802",0.615384615384615
+Thomas Jefferson,"January 18, 1803",0.880952380952381
+Thomas Jefferson,"October 17, 1803",0.333333333333333
+Thomas Jefferson,"December 17, 1803",0.459459459459459
+Thomas Jefferson,"November 08, 1804",0.508771929824561
+Thomas Jefferson,"March 04, 1805",0.870588235294118
+James Madison,"March 03, 1817",1.3448275862069
+James Madison,"December 03, 1816",0.938144329896907
+James Madison,"December 05, 1815",1.22680412371134
+James Madison,"February 18, 1815",1.75609756097561
+James Madison,"September 20, 1814",-0.202127659574468
+James Madison,"September 01, 1814",-0.775
+James Madison,"December 07, 1813",-0.149606299212598
+James Madison,"July 23, 1813",1.4
+James Madison,"May 25, 1813",0.453333333333333
+James Madison,"March 04, 1813",-0.0625
+James Madison,"November 04, 1812",0.0256410256410256
+James Madison,"May 23, 1809",1.10714285714286
+James Madison,"November 29, 1809",0.847457627118644
+James Madison,"October 27, 1810",0.416666666666667
+James Madison,"December 05, 1810",0.7
+James Madison,"February 21, 1811",0.375
+James Madison,"November 05, 1811",0.5
+James Madison,"June 19, 1812",1.28571428571429
+James Madison,"July 09, 1812",0.473684210526316
+James Monroe,"December 07, 1824",1.40268456375839
+James Monroe,"December 03, 1822",1
+James Monroe,"December 03, 1821",1.36607142857143
+James Monroe,"November 14, 1820",0.934782608695652
+James Monroe,"December 07, 1819",1.23423423423423
+James Monroe,"November 16, 1818",0.901785714285714
+James Monroe,"December 02, 1817",1.21495327102804
+John Quincy Adams,"February 24, 1841",2
+John Quincy Adams,"December 02, 1828",1.07284768211921
+John Quincy Adams,"December 04, 1827",1.1656050955414
+John Quincy Adams,"December 05, 1826",1.3489932885906
+John Quincy Adams,"December 06, 1825",1.78021978021978
+John Quincy Adams,"July 04, 1821",1.61111111111111
+Andrew Jackson,"March 04, 1829",1.33898305084746
+Andrew Jackson,"May 11, 1829",2
+Andrew Jackson,"May 06, 1830",1.21052631578947
+Andrew Jackson,"May 27, 1830",1.05925925925926
+Andrew Jackson,"October 05, 1830",3.25
+Andrew Jackson,"December 06, 1830",1.38888888888889
+Andrew Jackson,"February 22, 1831",0.388888888888889
+Andrew Jackson,"September 18, 1833",0.350649350649351
+Andrew Jackson,"April 15, 1834",0.339285714285714
+Andrew Jackson,"March 04, 1837",0.972111553784861
+Andrew Jackson,"December 21, 1836",0.30188679245283
+Andrew Jackson,"December 05, 1836",0.447058823529412
+Andrew Jackson,"December 07, 1835",0.979338842975207
+Andrew Jackson,"December 01, 1834",0.513698630136986
+Andrew Jackson,"April 21, 1834",0.571428571428571
+Andrew Jackson,"December 12, 1833",0.75
+Andrew Jackson,"December 03, 1833",1.07608695652174
+Andrew Jackson,"March 04, 1833",1.46511627906977
+Andrew Jackson,"December 06, 1831",1.10471204188482
+Andrew Jackson,"December 04, 1832",0.758454106280193
+Andrew Jackson,"December 06, 1832",0
+Andrew Jackson,"December 10, 1832",-0.419191919191919
+Martin Van Buren,"September 04, 1837",0.221757322175732
+Martin Van Buren,"January 05, 1838",1
+Martin Van Buren,"December 03, 1838",1.08661417322835
+Martin Van Buren,"December 02, 1839",0.485611510791367
+Martin Van Buren,"December 05, 1840",0.544186046511628
+Martin Van Buren,"January 02, 1841",-0.844444444444444
+John Tyler,"June 01, 1841",0.632258064516129
+John Tyler,"August 16, 1841",0.666666666666667
+John Tyler,"September 09, 1841",0.43859649122807
+John Tyler,"March 25, 1842",0.0833333333333333
+John Tyler,"May 10, 1842",0.32258064516129
+John Tyler,"August 09, 1842",0.132530120481928
+John Tyler,"August 11, 1842",1.24409448818898
+John Tyler,"December 06, 1842",0.599056603773585
+John Tyler,"December 18, 1844",-0.181818181818182
+John Tyler,"December 03, 1844",1.30143540669856
+John Tyler,"June 11, 1844",0.851063829787234
+John Tyler,"April 09, 1844",0.392857142857143
+John Tyler,"December 05, 1843",0.803191489361702
+John Tyler,"December 30, 1842",1.18918918918919
+James K. Polk,"February 08, 1849",2.18840579710145
+James K. Polk,"January 02, 1849",-1.66101694915254
+James K. Polk,"December 05, 1848",0.939102564102564
+James K. Polk,"August 01, 1848",1
+James K. Polk,"July 06, 1848",-1.13636363636364
+James K. Polk,"July 04, 1848",2.16666666666667
+James K. Polk,"May 29, 1848",0.342105263157895
+James K. Polk,"April 03, 1848",2
+James K. Polk,"February 22, 1848",1.26666666666667
+James K. Polk,"December 07, 1847",0.378640776699029
+James K. Polk,"February 13, 1847",-0.0175438596491228
+James K. Polk,"April 13, 1846",0.1875
+James K. Polk,"March 24, 1846",0.344827586206897
+James K. Polk,"May 13, 1846",1.69230769230769
+James K. Polk,"August 03, 1846",0.259259259259259
+James K. Polk,"August 05, 1846",1.4
+James K. Polk,"August 07, 1846",0.842105263157895
+James K. Polk,"August 08, 1846",0.238095238095238
+James K. Polk,"December 08, 1846",0.345890410958904
+James K. Polk,"December 29, 1846",-0.571428571428571
+Millard Fillmore,"December 13, 1850",1.89473684210526
+Millard Fillmore,"December 13, 1850",2.8
+Millard Fillmore,"December 02, 1851",0.806451612903226
+Franklin Pierce,"December 02, 1856",0.265217391304348
+Franklin Pierce,"August 21, 1856",-0.326086956521739
+Franklin Pierce,"February 11, 1856",-0.1
+Franklin Pierce,"December 31, 1855",0.3
+Franklin Pierce,"December 30, 1854",1.3963963963964
+Franklin Pierce,"December 04, 1854",0.188
+Franklin Pierce,"August 04, 1854",0.736842105263158
+Franklin Pierce,"August 01, 1854",0.333333333333333
+Franklin Pierce,"March 14, 1854",0.647058823529412
+Franklin Pierce,"February 10, 1854",1.13636363636364
+Franklin Pierce,"December 05, 1853",1.1304347826087
+Franklin Pierce,"January 18, 1854",-0.727272727272727
+James Buchanan,"December 03, 1860",0.461818181818182
+James Buchanan,"January 28, 1861",0.769230769230769
+James Buchanan,"June 22, 1860",-0.27906976744186
+James Buchanan,"May 19, 1860",0.705882352941177
+James Buchanan,"March 28, 1860",-0.506493506493506
+James Buchanan,"February 24, 1859",1.05194805194805
+James Buchanan,"February 18, 1859",-0.976744186046512
+James Buchanan,"December 06, 1858",0.441935483870968
+James Buchanan,"February 02, 1858",-0.121212121212121
+James Buchanan,"December 08, 1857",0.345724907063197
+Abraham Lincoln,"January 01, 1863",1.52941176470588
+Abraham Lincoln,"July 04, 1861",0.0448717948717949
+Abraham Lincoln,"December 03, 1861",0.987730061349693
+Abraham Lincoln,"March 04, 1865",-0.193548387096774
+Abraham Lincoln,"December 06, 1864",0.624161073825503
+Abraham Lincoln,"December 08, 1863",0.340909090909091
+Abraham Lincoln,"August 26, 1863",-0.442622950819672
+Abraham Lincoln,"December 01, 1862",0.392045454545455
+Abraham Lincoln,"February 11, 1861",1.28571428571429
+Abraham Lincoln,"February 27, 1860",-2.60264900662252
+Abraham Lincoln,"October 16, 1854",-2.28519855595668
+Abraham Lincoln,"July 06, 1852",-0.635869565217391
+Andrew Johnson,"April 29, 1865",0.416666666666667
+Andrew Johnson,"May 02, 1865",0.166666666666667
+Andrew Johnson,"May 29, 1865",2
+Andrew Johnson,"June 02, 1865",-0.666666666666667
+Andrew Johnson,"June 06, 1865",-2.42857142857143
+Andrew Johnson,"December 04, 1865",0.902325581395349
+Andrew Johnson,"December 18, 1865",0.793103448275862
+Andrew Johnson,"February 19, 1866",0.450980392156863
+Andrew Johnson,"March 27, 1866",-0.0645161290322581
+Andrew Johnson,"July 20, 1868",-0.645161290322581
+Andrew Johnson,"July 18, 1868",0.787234042553192
+Andrew Johnson,"June 20, 1868",-0.184210526315789
+Andrew Johnson,"March 25, 1868",-0.2
+Andrew Johnson,"February 22, 1868",-0.755555555555556
+Andrew Johnson,"February 11, 1868",0.148648648648649
+Andrew Johnson,"December 12, 1867",-0.630630630630631
+Andrew Johnson,"December 03, 1867",0.229508196721311
+Andrew Johnson,"September 07, 1867",0.806451612903226
+Andrew Johnson,"July 19, 1867",0.484375
+Andrew Johnson,"June 20, 1867",-1.24242424242424
+Andrew Johnson,"July 24, 1866",1.22222222222222
+Andrew Johnson,"August 20, 1866",1.03125
+Andrew Johnson,"December 03, 1866",0.940217391304348
+Andrew Johnson,"January 28, 1867",0.229508196721311
+Andrew Johnson,"January 29, 1867",0.48936170212766
+Andrew Johnson,"March 02, 1867",-0.428571428571429
+Andrew Johnson,"March 23, 1867",-0.0476190476190476
+Ulysses S. Grant,"January 29, 1877",0.486486486486487
+Ulysses S. Grant,"June 26, 1876",2
+Ulysses S. Grant,"May 04, 1876",0.82051282051282
+Ulysses S. Grant,"December 07, 1875",0.775862068965517
+Ulysses S. Grant,"April 18, 1875",0.65
+Ulysses S. Grant,"January 14, 1875",1.09375
+Ulysses S. Grant,"December 07, 1874",0.462264150943396
+Ulysses S. Grant,"September 15, 1874",1.11111111111111
+Ulysses S. Grant,"April 22, 1874",0.954545454545455
+Ulysses S. Grant,"December 01, 1873",1.20304568527919
+Ulysses S. Grant,"March 04, 1873",0.384615384615385
+Ulysses S. Grant,"April 07, 1869",1.56521739130435
+Ulysses S. Grant,"December 05, 1870",0.875621890547264
+Ulysses S. Grant,"May 14, 1869",1.05882352941176
+Ulysses S. Grant,"February 07, 1871",1.70588235294118
+Ulysses S. Grant,"May 19, 1869",3.66666666666667
+Ulysses S. Grant,"February 15, 1871",0.333333333333333
+Ulysses S. Grant,"December 06, 1869",1.12269938650307
+Ulysses S. Grant,"May 03, 1871",1.04347826086957
+Ulysses S. Grant,"March 30, 1870",2.5
+Ulysses S. Grant,"October 17, 1871",0.944444444444444
+Ulysses S. Grant,"May 24, 1870",0.466666666666667
+Ulysses S. Grant,"December 04, 1871",1.15116279069767
+Ulysses S. Grant,"May 31, 1870",0.179487179487179
+Ulysses S. Grant,"December 19, 1871",1.63636363636364
+Ulysses S. Grant,"June 13, 1870",-0.766666666666667
+Ulysses S. Grant,"December 02, 1872",1.53475935828877
+Ulysses S. Grant,"July 14, 1870",1.11009174311927
+Ulysses S. Grant,"August 22, 1870",-0.470588235294118
+Rutherford B. Hayes,"June 22, 1877",0.333333333333333
+Rutherford B. Hayes,"July 18, 1877",-1.07692307692308
+Rutherford B. Hayes,"February 08, 1878",1.24242424242424
+Rutherford B. Hayes,"December 02, 1878",1.3021978021978
+Rutherford B. Hayes,"April 26, 1879",-0.285714285714286
+Rutherford B. Hayes,"April 29, 1879",0.425925925925926
+Rutherford B. Hayes,"May 12, 1879",1.08510638297872
+Rutherford B. Hayes,"May 29, 1879",1.16438356164384
+Rutherford B. Hayes,"March 03, 1881",-0.205882352941176
+Rutherford B. Hayes,"June 15, 1880",0.0615384615384615
+Rutherford B. Hayes,"March 08, 1880",1.83333333333333
+Rutherford B. Hayes,"December 01, 1879",1.46606334841629
+Grover Cleveland,"January 11, 1897",0.576923076923077
+Grover Cleveland,"December 07, 1896",0.804804804804805
+Grover Cleveland,"July 27, 1896",0.705882352941177
+Grover Cleveland,"December 20, 1895",0.0740740740740741
+Grover Cleveland,"December 17, 1895",0.65
+Grover Cleveland,"December 02, 1895",0.700280112044818
+Grover Cleveland,"June 12, 1895",0.8125
+Grover Cleveland,"June 12, 1895",0.8125
+Grover Cleveland,"February 08, 1895",0.714285714285714
+Grover Cleveland,"January 28, 1895",0.725
+Grover Cleveland,"December 03, 1894",0.739273927392739
+Chester A. Arthur,"July 01, 1884",-0.6
+Chester A. Arthur,"December 04, 1883",0.638888888888889
+Chester A. Arthur,"December 04, 1882",0.762626262626263
+Chester A. Arthur,"August 01, 1882",0.666666666666667
+Chester A. Arthur,"July 01, 1882",-0.05
+Chester A. Arthur,"April 18, 1882",0.209677419354839
+Chester A. Arthur,"December 06, 1881",1.16304347826087
+Grover Cleveland,"December 08, 1885",1.03580562659847
+Grover Cleveland,"February 02, 1888",2.53703703703704
+Grover Cleveland,"March 01, 1886",0.0645161290322581
+Grover Cleveland,"October 01, 1888",0.745098039215686
+Grover Cleveland,"April 22, 1886",0.0882352941176471
+Grover Cleveland,"May 08, 1886",0.451612903225806
+Grover Cleveland,"May 11, 1886",2.05
+Grover Cleveland,"July 14, 1886",-0.357142857142857
+Grover Cleveland,"December 06, 1886",1.26537216828479
+Grover Cleveland,"February 11, 1887",-0.0825688073394495
+Grover Cleveland,"February 16, 1887",-0.238095238095238
+Grover Cleveland,"December 06, 1887",0.426470588235294
+Grover Cleveland,"December 03, 1888",0.88125
+Grover Cleveland,"August 08, 1893",-0.118279569892473
+Grover Cleveland,"December 04, 1893",0.634920634920635
+Grover Cleveland,"March 29, 1894",0.826666666666667
+Benjamin Harrison,"April 04, 1889",2.54545454545455
+Benjamin Harrison,"December 03, 1889",0.904761904761905
+Benjamin Harrison,"April 19, 1890",1.61538461538462
+Benjamin Harrison,"May 30, 1890",0.857142857142857
+Benjamin Harrison,"June 19, 1890",1.30769230769231
+Benjamin Harrison,"October 23, 1890",4.33333333333333
+Benjamin Harrison,"December 01, 1890",1.27659574468085
+Benjamin Harrison,"December 01, 1890",1.27659574468085
+Benjamin Harrison,"December 09, 1891",0.813333333333333
+Benjamin Harrison,"July 08, 1894",-0.952380952380952
+Benjamin Harrison,"December 18, 1893",1.12162162162162
+Benjamin Harrison,"August 08, 1893",-0.350515463917526
+Benjamin Harrison,"December 06, 1892",1.264
+Benjamin Harrison,"December 06, 1892",1.264
+Benjamin Harrison,"September 03, 1892",0.916201117318436
+Benjamin Harrison,"January 28, 1892",0.833333333333333
+Benjamin Harrison,"January 25, 1892",-1.01273885350318
+Benjamin Harrison,"December 09, 1891",0.813333333333333
+Franklin D. Roosevelt,"December 29, 1940",-0.198412698412698
+William McKinley,"December 03, 1900",1.84477611940299
+William McKinley,"July 12, 1900",1.05434782608696
+William McKinley,"December 05, 1899",1.92957746478873
+William McKinley,"December 05, 1898",1.15186246418338
+William McKinley,"April 23, 1898",1
+William McKinley,"April 22, 1898",0.625
+William McKinley,"December 06, 1897",0.286245353159851
+William McKinley,"July 24, 1897",0.464285714285714
+William McKinley,"May 17, 1897",0.666666666666667
+William McKinley,"March 15, 1897",0.476190476190476
+Theodore Roosevelt,"December 09, 1908",-0.0964187327823691
+Theodore Roosevelt,"March 25, 1908",-0.0694444444444444
+Theodore Roosevelt,"December 03, 1907",0.317567567567568
+Theodore Roosevelt,"December 19, 1906",-1.53174603174603
+Theodore Roosevelt,"December 17, 1906",0.296116504854369
+Theodore Roosevelt,"December 11, 1906",1.15384615384615
+Theodore Roosevelt,"December 03, 1906",-0.120454545454545
+Theodore Roosevelt,"June 04, 1906",-0.148148148148148
+Theodore Roosevelt,"December 05, 1905",0.750605326876513
+Theodore Roosevelt,"December 06, 1904",0.640117994100295
+Theodore Roosevelt,"December 03, 1901",0.873385012919897
+Theodore Roosevelt,"June 13, 1902",1.02325581395349
+Theodore Roosevelt,"December 02, 1902",0.639130434782609
+Theodore Roosevelt,"October 20, 1903",3.5
+Theodore Roosevelt,"November 10, 1903",1.625
+Theodore Roosevelt,"November 16, 1903",1.06086956521739
+Theodore Roosevelt,"December 07, 1903",0.854092526690391
+Theodore Roosevelt,"December 07, 1903",1.34
+Theodore Roosevelt,"February 11, 1904",-0.911764705882353
+William Taft,"January 07, 1910",-0.282051282051282
+William Taft,"December 06, 1910",1.87202380952381
+William Taft,"January 26, 1911",1.20967741935484
+William Taft,"January 26, 1911",1.20967741935484
+William Taft,"December 05, 1911",1.26708074534161
+William Taft,"December 07, 1909",1.58108108108108
+William Taft,"June 16, 1909",0.6
+William Taft,"March 16, 1909",0.6
+Woodrow Wilson,"December 07, 1920",0.662790697674419
+Woodrow Wilson,"December 02, 1919",0.474025974025974
+Woodrow Wilson,"December 02, 1918",0.993548387096774
+Woodrow Wilson,"December 04, 1917",-0.0422535211267606
+Woodrow Wilson,"May 18, 1917",-0.5
+Woodrow Wilson,"April 06, 1917",-0.439024390243902
+Woodrow Wilson,"April 02, 1917",0.213740458015267
+Woodrow Wilson,"March 05, 1917",1.11538461538462
+Woodrow Wilson,"February 26, 1917",0.183673469387755
+Woodrow Wilson,"February 03, 1917",-0.338983050847458
+Woodrow Wilson,"January 22, 1917",1.80681818181818
+Woodrow Wilson,"April 08, 1913",0.675
+Woodrow Wilson,"October 20, 1914",1
+Woodrow Wilson,"June 23, 1913",0.974358974358974
+Woodrow Wilson,"December 08, 1914",NA
+Woodrow Wilson,"July 04, 1913",0.924528301886792
+Woodrow Wilson,"January 28, 1915",0.405405405405405
+Woodrow Wilson,"October 25, 1913",0.666666666666667
+Woodrow Wilson,"December 07, 1915",0.860606060606061
+Woodrow Wilson,"December 02, 1913",1.15957446808511
+Woodrow Wilson,"April 19, 1916",-1.64179104477612
+Woodrow Wilson,"January 20, 1914",0.542168674698795
+Woodrow Wilson,"September 02, 1916",0.421686746987952
+Woodrow Wilson,"April 20, 1914",-0.316666666666667
+Woodrow Wilson,"September 02, 1916",0.427710843373494
+Woodrow Wilson,"May 30, 1914",2.08823529411765
+Woodrow Wilson,"September 08, 1916",0.5
+Woodrow Wilson,"July 04, 1914",0.242105263157895
+Woodrow Wilson,"December 05, 1916",0.446153846153846
+Woodrow Wilson,"August 19, 1914",0.918918918918919
+Warren G. Harding,"September 11, 1919",0.606060606060606
+Warren G. Harding,"April 04, 1917",0.305555555555556
+Warren G. Harding,"May 14, 1920",-0.032258064516129
+Warren G. Harding,"June 12, 1920",0.560165975103734
+Warren G. Harding,"July 22, 1920",-1.13888888888889
+Warren G. Harding,"July 22, 1920",0.133333333333333
+Warren G. Harding,"July 22, 1920",1.26086956521739
+Warren G. Harding,"July 22, 1920",-0.227272727272727
+Warren G. Harding,"July 22, 1920",0.96875
+Warren G. Harding,"August 25, 1920",0.782608695652174
+Warren G. Harding,"August 28, 1920",1.17391304347826
+Warren G. Harding,"December 08, 1922",-0.172972972972973
+Warren G. Harding,"December 06, 1921",0.287292817679558
+Warren G. Harding,"May 23, 1921",0.0625
+Calvin Coolidge,"December 03, 1924",1.09550561797753
+Calvin Coolidge,"July 03, 1925",0.712707182320442
+Calvin Coolidge,"December 08, 1925",1.32743362831858
+Calvin Coolidge,"July 05, 1926",1.38461538461538
+Calvin Coolidge,"December 07, 1926",1.15021459227468
+Calvin Coolidge,"February 22, 1927",1.61157024793388
+Calvin Coolidge,"December 06, 1927",0.767772511848341
+Calvin Coolidge,"December 04, 1928",1.24607329842932
+Herbert Hoover,"October 22, 1928",1.23026315789474
+Herbert Hoover,"June 11, 1929",0.0714285714285714
+Herbert Hoover,"July 24, 1929",1.48387096774194
+Herbert Hoover,"July 24, 1929",1.48387096774194
+Herbert Hoover,"December 06, 1932",0.0265486725663717
+Herbert Hoover,"November 05, 1932",-0.305555555555556
+Herbert Hoover,"October 28, 1932",-0.0209424083769633
+Herbert Hoover,"October 21, 1932",0.655172413793103
+Herbert Hoover,"May 31, 1932",0.452054794520548
+Herbert Hoover,"December 11, 1931",0.333333333333333
+Herbert Hoover,"December 08, 1931",0.467625899280576
+Herbert Hoover,"October 18, 1931",0.196078431372549
+Herbert Hoover,"September 22, 1931",0.55
+Herbert Hoover,"June 21, 1931",0.5
+Herbert Hoover,"February 26, 1931",-0.027027027027027
+Herbert Hoover,"September 18, 1929",0.434782608695652
+Herbert Hoover,"November 05, 1929",-1.23809523809524
+Herbert Hoover,"November 19, 1929",-0.304347826086957
+Herbert Hoover,"December 03, 1929",1.30875576036866
+Herbert Hoover,"March 07, 1930",-1.4
+Herbert Hoover,"April 28, 1930",-0.521739130434783
+Herbert Hoover,"June 16, 1930",0.976744186046512
+Herbert Hoover,"July 07, 1930",0.672727272727273
+Herbert Hoover,"October 02, 1930",0.204081632653061
+Herbert Hoover,"December 09, 1930",0.25
+Herbert Hoover,"February 03, 1931",0.372881355932203
+Franklin D. Roosevelt,"March 01, 1945",0.882352941176471
+Franklin D. Roosevelt,"February 11, 1945",0.647058823529412
+Franklin D. Roosevelt,"January 20, 1945",1.16666666666667
+Franklin D. Roosevelt,"July 20, 1944",0.814814814814815
+Franklin D. Roosevelt,"June 12, 1944",-0.824561403508772
+Franklin D. Roosevelt,"June 05, 1944",0.470588235294118
+Franklin D. Roosevelt,"January 11, 1944",-0.135135135135135
+Franklin D. Roosevelt,"December 24, 1943",0.890909090909091
+Franklin D. Roosevelt,"December 01, 1943",0.142857142857143
+Franklin D. Roosevelt,"September 08, 1943",-1.08163265306122
+Franklin D. Roosevelt,"July 28, 1943",-0.106796116504854
+Franklin D. Roosevelt,"May 02, 1943",-0.535211267605634
+Franklin D. Roosevelt,"March 12, 1933",1.01923076923077
+Franklin D. Roosevelt,"May 07, 1933",0.0952380952380952
+Franklin D. Roosevelt,"July 24, 1933",0.282608695652174
+Franklin D. Roosevelt,"October 22, 1933",0.671875
+Franklin D. Roosevelt,"June 28, 1934",0.746987951807229
+Franklin D. Roosevelt,"September 30, 1934",0.583333333333333
+Franklin D. Roosevelt,"April 28, 1935",-0.115384615384615
+Franklin D. Roosevelt,"June 27, 1936",1.17391304347826
+Franklin D. Roosevelt,"September 06, 1936",0.464285714285714
+Franklin D. Roosevelt,"October 31, 1936",-0.0198019801980198
+Franklin D. Roosevelt,"January 20, 1937",0.447916666666667
+Franklin D. Roosevelt,"October 05, 1937",0.617021276595745
+Franklin D. Roosevelt,"October 12, 1937",0.139784946236559
+Franklin D. Roosevelt,"January 06, 1941",0.702702702702703
+Franklin D. Roosevelt,"November 14, 1937",0.26530612244898
+Franklin D. Roosevelt,"January 20, 1941",0.543859649122807
+Franklin D. Roosevelt,"April 14, 1938",0.333333333333333
+Franklin D. Roosevelt,"March 15, 1941",0.306122448979592
+Franklin D. Roosevelt,"June 24, 1938",0.407766990291262
+Franklin D. Roosevelt,"May 27, 1941",-0.185714285714286
+Franklin D. Roosevelt,"July 08, 1938",0.755102040816326
+Franklin D. Roosevelt,"September 03, 1939",0.447368421052632
+Franklin D. Roosevelt,"May 26, 1940",-0.273504273504274
+Franklin D. Roosevelt,"June 10, 1940",-0.119402985074627
+Franklin D. Roosevelt,"July 19, 1940",0.118181818181818
+Franklin D. Roosevelt,"September 11, 1941",-1.07216494845361
+Franklin D. Roosevelt,"December 09, 1941",-0.726495726495726
+Franklin D. Roosevelt,"December 11, 1941",-0.4
+Franklin D. Roosevelt,"February 23, 1942",-0.525423728813559
+Franklin D. Roosevelt,"April 28, 1942",-0.827272727272727
+Franklin D. Roosevelt,"September 07, 1942",-0.763636363636364
+Franklin D. Roosevelt,"October 12, 1942",0.0526315789473684
+Franklin D. Roosevelt,"January 07, 1943",-0.267515923566879
+Harry S. Truman,"August 06, 1945",-0.479166666666667
+Harry S. Truman,"August 09, 1945",0.5
+Harry S. Truman,"September 01, 1945",0.323943661971831
+Harry S. Truman,"October 27, 1945",1
+Harry S. Truman,"June 29, 1947",1.12676056338028
+Harry S. Truman,"July 15, 1948",0.523809523809524
+Harry S. Truman,"September 18, 1948",1.77272727272727
+Harry S. Truman,"September 18, 1948",0.55
+Harry S. Truman,"January 15, 1953",0.428571428571429
+Harry S. Truman,"October 22, 1952",0.52
+Harry S. Truman,"March 29, 1952",0.151260504201681
+Harry S. Truman,"March 15, 1952",1.31111111111111
+Harry S. Truman,"April 11, 1951",-0.988888888888889
+Harry S. Truman,"January 20, 1949",1.81308411214953
+Harry S. Truman,"November 03, 1948",2.5
+Richard M. Nixon,"September 23, 1952",-0.168831168831169
+Dwight D. Eisenhower,"August 23, 1956",1.25190839694656
+Dwight D. Eisenhower,"December 08, 1953",1.16101694915254
+Dwight D. Eisenhower,"April 16, 1953",0.832116788321168
+John F. Kennedy,"October 22, 1962",-0.0470588235294118
+John F. Kennedy,"June 10, 1963",0.680851063829787
+John F. Kennedy,"June 26, 1963",2.16
+John F. Kennedy,"October 26, 1963",1.32467532467532
+John F. Kennedy,"September 26, 1963",0.720338983050847
+John F. Kennedy,"September 20, 1963",0.850393700787402
+John F. Kennedy,"July 26, 1963",-0.375
+John F. Kennedy,"June 05, 1963",1.19402985074627
+John F. Kennedy,"May 18, 1963",0.650602409638554
+John F. Kennedy,"January 14, 1963",0.767195767195767
+John F. Kennedy,"September 30, 1962",1.10416666666667
+John F. Kennedy,"September 12, 1962",0.928571428571429
+John F. Kennedy,"January 09, 1961",1.03030303030303
+John F. Kennedy,"October 21, 1960",1.57225433526012
+John F. Kennedy,"January 30, 1961",0.707070707070707
+John F. Kennedy,"February 21, 1961",2.75862068965517
+John F. Kennedy,"March 01, 1961",2.66666666666667
+John F. Kennedy,"March 13, 1961",1.42682926829268
+John F. Kennedy,"April 20, 1961",-0.701492537313433
+John F. Kennedy,"April 27, 1961",-0.758620689655172
+John F. Kennedy,"May 03, 1961",1.10526315789474
+John F. Kennedy,"May 17, 1961",1.34313725490196
+John F. Kennedy,"June 06, 1961",1.68253968253968
+John F. Kennedy,"January 11, 1962",0.977777777777778
+John F. Kennedy,"June 07, 1961",0.703703703703704
+John F. Kennedy,"March 23, 1962",1
+John F. Kennedy,"July 25, 1961",0.25
+John F. Kennedy,"June 06, 1962",0.3375
+John F. Kennedy,"September 25, 1961",0.284153005464481
+John F. Kennedy,"June 11, 1962",0.432
+John F. Kennedy,"October 12, 1961",0.954545454545455
+John F. Kennedy,"November 11, 1961",-0.442307692307692
+John F. Kennedy,"November 16, 1961",0.316831683168317
+John F. Kennedy,"December 06, 1961",1.37888198757764
+John F. Kennedy,"December 07, 1961",2.43333333333333
+John F. Kennedy,"December 11, 1961",2
+Lyndon B. Johnson,"March 15, 1965",0.0387596899224806
+Lyndon B. Johnson,"May 13, 1965",-0.10989010989011
+Lyndon B. Johnson,"June 01, 1965",0.660714285714286
+Lyndon B. Johnson,"June 04, 1965",0.85
+Lyndon B. Johnson,"August 06, 1965",0.445945945945946
+Lyndon B. Johnson,"July 28, 1965",0.678082191780822
+Lyndon B. Johnson,"August 25, 1965",1.58260869565217
+Lyndon B. Johnson,"January 12, 1966",0.524861878453039
+Lyndon B. Johnson,"January 31, 1966",1.61290322580645
+Lyndon B. Johnson,"February 23, 1966",1
+Lyndon B. Johnson,"March 23, 1966",0.027027027027027
+Lyndon B. Johnson,"June 30, 1966",0.0697674418604651
+Lyndon B. Johnson,"July 05, 1966",0.844036697247706
+Lyndon B. Johnson,"July 12, 1966",0.66304347826087
+Lyndon B. Johnson,"July 20, 1966",0.221052631578947
+Lyndon B. Johnson,"October 06, 1966",0.771739130434783
+Lyndon B. Johnson,"March 31, 1968",0.746575342465753
+Lyndon B. Johnson,"January 14, 1969",1.703125
+Lyndon B. Johnson,"October 31, 1968",1.55882352941176
+Lyndon B. Johnson,"July 01, 1968",0.892857142857143
+Lyndon B. Johnson,"April 11, 1968",0.36
+Lyndon B. Johnson,"April 03, 1968",1.16666666666667
+Lyndon B. Johnson,"April 01, 1968",0.395604395604396
+Lyndon B. Johnson,"January 17, 1968",1.19480519480519
+Lyndon B. Johnson,"December 19, 1967",0.23030303030303
+Lyndon B. Johnson,"November 17, 1967",-0.267175572519084
+Lyndon B. Johnson,"September 29, 1967",-0.234234234234234
+Lyndon B. Johnson,"August 18, 1967",0
+Lyndon B. Johnson,"July 27, 1967",-0.980392156862745
+Lyndon B. Johnson,"May 30, 1963",0.361111111111111
+Lyndon B. Johnson,"November 28, 1963",3.22727272727273
+Lyndon B. Johnson,"December 17, 1963",0.985915492957746
+Lyndon B. Johnson,"January 08, 1964",0.636363636363636
+Lyndon B. Johnson,"February 01, 1964",1.2967032967033
+Lyndon B. Johnson,"February 21, 1964",1.12121212121212
+Lyndon B. Johnson,"February 29, 1964",2.15384615384615
+Lyndon B. Johnson,"March 07, 1964",1.45
+Lyndon B. Johnson,"April 16, 1964",1.46363636363636
+Lyndon B. Johnson,"April 20, 1964",1.31325301204819
+Lyndon B. Johnson,"May 06, 1964",1.29411764705882
+Lyndon B. Johnson,"May 22, 1964",0.378378378378378
+Lyndon B. Johnson,"July 24, 1964",1.40740740740741
+Lyndon B. Johnson,"August 04, 1964",0.46875
+Lyndon B. Johnson,"August 05, 1964",-0.0833333333333333
+Lyndon B. Johnson,"August 27, 1964",2.90243902439024
+Lyndon B. Johnson,"October 09, 1964",0.574468085106383
+Lyndon B. Johnson,"October 18, 1964",0.373333333333333
+Lyndon B. Johnson,"January 04, 1965",0.766081871345029
+Lyndon B. Johnson,"February 04, 1965",2.10344827586207
+Lyndon B. Johnson,"March 13, 1965",0.3
+Lyndon B. Johnson,"March 20, 1965",1.60714285714286
+Lyndon B. Johnson,"June 11, 1965",1.69811320754717
+Lyndon B. Johnson,"March 26, 1965",3.18518518518519
+Lyndon B. Johnson,"June 25, 1965",-0.129032258064516
+Lyndon B. Johnson,"July 13, 1965",1.6304347826087
+Lyndon B. Johnson,"March 26, 1965",-0.152173913043478
+Lyndon B. Johnson,"April 07, 1965",0.0677966101694915
+Lyndon B. Johnson,"April 27, 1965",-0.3671875
+Lyndon B. Johnson,"April 28, 1965",0
+Lyndon B. Johnson,"May 02, 1965",-0.113636363636364
+Richard M. Nixon,"April 29, 1974",0.0116279069767442
+Richard M. Nixon,"February 25, 1974",0.0816326530612245
+Richard M. Nixon,"January 30, 1974",0.946969696969697
+Richard M. Nixon,"August 15, 1973",-0.114035087719298
+Richard M. Nixon,"January 23, 1973",2.05
+Richard M. Nixon,"January 20, 1973",1.76470588235294
+Richard M. Nixon,"November 07, 1972",2.65384615384615
+Richard M. Nixon,"November 06, 1972",1.45454545454545
+Richard M. Nixon,"May 08, 1972",-1.10714285714286
+Richard M. Nixon,"November 03, 1969",-0.2
+Richard M. Nixon,"January 22, 1970",0.726114649681529
+Richard M. Nixon,"January 22, 1971",1.12096774193548
+Richard M. Nixon,"February 25, 1971",0.992125984251969
+Richard M. Nixon,"April 07, 1971",-0.28735632183908
+Richard M. Nixon,"May 20, 1971",1
+Richard M. Nixon,"January 20, 1972",0.615942028985507
+Richard M. Nixon,"January 25, 1972",-0.462686567164179
+Gerald Ford,"January 12, 1977",1.04519774011299
+Gerald Ford,"January 19, 1976",0.258620689655172
+Gerald Ford,"December 07, 1975",2.03703703703704
+Gerald Ford,"August 01, 1975",1.46808510638298
+Gerald Ford,"May 27, 1975",0.127659574468085
+Gerald Ford,"April 23, 1975",1.10126582278481
+Gerald Ford,"January 15, 1975",0.453846153846154
+Gerald Ford,"October 08, 1974",0.569105691056911
+Gerald Ford,"September 18, 1974",0.897727272727273
+Gerald Ford,"September 16, 1974",0.44
+Gerald Ford,"August 09, 1974",1.92307692307692
+Jimmy Carter,"September 17, 1978",1.68571428571429
+Jimmy Carter,"January 14, 1981",-0.0202020202020202
+Jimmy Carter,"August 14, 1980",1.07432432432432
+Jimmy Carter,"April 25, 1980",0.711111111111111
+Jimmy Carter,"January 23, 1980",0.788321167883212
+Jimmy Carter,"January 04, 1980",0.849056603773585
+Jimmy Carter,"January 23, 1979",1.39333333333333
+Jimmy Carter,"December 15, 1978",2.14285714285714
+Jimmy Carter,"October 24, 1978",0.233644859813084
+Jimmy Carter,"January 19, 1978",0.647058823529412
+Jimmy Carter,"October 22, 1976",0.244444444444444
+Jimmy Carter,"October 06, 1976",0.834170854271357
+Jimmy Carter,"February 02, 1977",0.391304347826087
+Jimmy Carter,"March 09, 1977",0.239130434782609
+Jimmy Carter,"April 18, 1977",-0.0833333333333333
+Jimmy Carter,"May 22, 1977",0.698412698412698
+Jimmy Carter,"September 07, 1977",2.23809523809524
+Jimmy Carter,"November 08, 1977",0.853658536585366
+Ronald Reagan,"January 27, 1987",0.820689655172414
+Ronald Reagan,"October 22, 1986",0.470588235294118
+Ronald Reagan,"December 08, 1987",0.431818181818182
+Ronald Reagan,"December 10, 1987",0.909090909090909
+Ronald Reagan,"January 25, 1988",1.22085889570552
+Ronald Reagan,"May 31, 1988",0.965116279069767
+Ronald Reagan,"August 15, 1988",1.02564102564103
+Ronald Reagan,"September 26, 1988",0.641025641025641
+Ronald Reagan,"November 11, 1988",1.71428571428571
+Ronald Reagan,"December 16, 1988",1.34969325153374
+Ronald Reagan,"January 11, 1989",0.9
+Ronald Reagan,"July 17, 1980",0.311764705882353
+Ronald Reagan,"November 13, 1979",0.299270072992701
+Ronald Reagan,"January 29, 1981",0.25
+Ronald Reagan,"June 09, 1982",0.84375
+Ronald Reagan,"April 28, 1981",0.689655172413793
+Ronald Reagan,"June 17, 1982",0.807407407407407
+Ronald Reagan,"May 17, 1981",0.809090909090909
+Ronald Reagan,"August 16, 1982",0.207792207792208
+Ronald Reagan,"June 29, 1981",0.622222222222222
+Ronald Reagan,"September 01, 1982",2.08163265306122
+Ronald Reagan,"July 27, 1981",0.357894736842105
+Ronald Reagan,"September 20, 1982",0.0769230769230769
+Ronald Reagan,"August 03, 1981",-0.58
+Ronald Reagan,"January 25, 1983",0.86096256684492
+Ronald Reagan,"November 18, 1981",0.929203539823009
+Ronald Reagan,"December 23, 1981",0.425742574257426
+Ronald Reagan,"January 26, 1982",0.652941176470588
+Ronald Reagan,"June 08, 1982",0.3
+Ronald Reagan,"February 18, 1983",-0.191011235955056
+Ronald Reagan,"March 23, 1983",0.309859154929577
+Ronald Reagan,"June 06, 1984",0.236842105263158
+Ronald Reagan,"April 27, 1983",-0.0533333333333333
+Ronald Reagan,"August 23, 1984",0.182352941176471
+Ronald Reagan,"September 05, 1983",-1.0873786407767
+Ronald Reagan,"October 07, 1984",-0.0979591836734694
+Ronald Reagan,"October 27, 1983",0.153846153846154
+Ronald Reagan,"October 21, 1984",-0.241758241758242
+Ronald Reagan,"November 02, 1983",0.264705882352941
+Ronald Reagan,"January 21, 1985",1.04
+Ronald Reagan,"November 04, 1983",0.836363636363636
+Ronald Reagan,"February 06, 1985",1.53658536585366
+Ronald Reagan,"January 25, 1984",1.87027027027027
+Ronald Reagan,"May 05, 1985",-1.10606060606061
+Ronald Reagan,"January 29, 1984",0.756756756756757
+Ronald Reagan,"November 21, 1985",1.43333333333333
+Ronald Reagan,"May 28, 1984",1.58333333333333
+Ronald Reagan,"January 28, 1986",-0.65
+Ronald Reagan,"June 03, 1984",3.82857142857143
+Ronald Reagan,"February 04, 1986",1.0679012345679
+George H. W. Bush,"January 05, 1993",0.830508474576271
+George H. W. Bush,"December 15, 1992",0.53416149068323
+George H. W. Bush,"December 04, 1992",0.173913043478261
+George H. W. Bush,"October 11, 1992",0.172413793103448
+George H. W. Bush,"August 20, 1992",0.566433566433566
+George H. W. Bush,"January 28, 1992",0.367816091954023
+George H. W. Bush,"July 31, 1991",2.74
+George H. W. Bush,"March 06, 1991",0.14018691588785
+George H. W. Bush,"January 29, 1991",0.384146341463415
+George H. W. Bush,"January 16, 1991",0.26027397260274
+George H. W. Bush,"October 02, 1990",-0.428571428571429
+George H. W. Bush,"September 25, 1988",0.758333333333333
+George H. W. Bush,"August 18, 1988",0.816901408450704
+George H. W. Bush,"February 09, 1989",0.952662721893491
+George H. W. Bush,"May 12, 1989",0.8
+George H. W. Bush,"January 31, 1990",1.47413793103448
+George H. W. Bush,"July 26, 1990",1.91111111111111
+George H. W. Bush,"August 08, 1990",-0.0166666666666667
+George H. W. Bush,"September 11, 1990",0.37410071942446
+George H. W. Bush,"October 01, 1990",0.928571428571429
+Bill Clinton,"April 23, 1995",-0.795454545454545
+Bill Clinton,"June 25, 1996",-2.23188405797101
+Bill Clinton,"August 29, 1996",0.5625
+Bill Clinton,"October 06, 1996",-0.0850202429149798
+Bill Clinton,"November 03, 1996",0.266666666666667
+Bill Clinton,"January 20, 1997",1.27173913043478
+Bill Clinton,"January 18, 2001",1.44186046511628
+Bill Clinton,"January 27, 2000",1.11440677966102
+Bill Clinton,"June 10, 1999",-0.130434782608696
+Bill Clinton,"March 24, 1999",-0.222222222222222
+Bill Clinton,"January 19, 1999",1.13302752293578
+Bill Clinton,"March 25, 1998",0.00980392156862745
+Bill Clinton,"March 23, 1998",1.18461538461538
+Bill Clinton,"January 27, 1998",1.44615384615385
+Bill Clinton,"January 26, 1998",0.733333333333333
+Bill Clinton,"April 22, 1997",0.488888888888889
+Bill Clinton,"February 04, 1997",0.847368421052632
+Bill Clinton,"January 29, 1993",0.660377358490566
+Bill Clinton,"February 05, 1993",1.30769230769231
+Bill Clinton,"February 17, 1993",0.486338797814208
+Bill Clinton,"April 30, 1993",0.916666666666667
+Bill Clinton,"May 05, 1993",1.13513513513514
+Bill Clinton,"June 06, 1993",-0.807692307692308
+Bill Clinton,"September 13, 1993",1.01923076923077
+Bill Clinton,"September 22, 1993",0.851428571428571
+Bill Clinton,"October 07, 1993",-0.0136986301369863
+Bill Clinton,"November 13, 1993",-0.157407407407407
+Bill Clinton,"January 25, 1994",0.50259067357513
+Bill Clinton,"June 06, 1994",0.339285714285714
+Bill Clinton,"July 12, 1994",2.41176470588235
+Bill Clinton,"January 24, 1995",0.447826086956522
+Bill Clinton,"July 19, 1995",0.625850340136054
+Bill Clinton,"October 16, 1995",0.0993377483443709
+Bill Clinton,"November 27, 1995",0.0672268907563025
+Bill Clinton,"November 30, 1995",1.32456140350877
+Bill Clinton,"January 23, 1996",-0.113636363636364
+George W. Bush,"January 15, 2009",0.707547169811321
+George W. Bush,"January 12, 2009",-0.333333333333333
+George W. Bush,"December 19, 2008",-0.36
+George W. Bush,"October 03, 2008",0.135135135135135
+George W. Bush,"March 19, 2008",-0.674418604651163
+George W. Bush,"January 28, 2008",1.0972972972973
+George W. Bush,"April 09, 2007",0.492537313432836
+George W. Bush,"January 23, 2007",0.2
+George W. Bush,"January 10, 2007",0.160714285714286
+George W. Bush,"July 19, 2006",0.306451612903226
+George W. Bush,"January 31, 2006",0.727699530516432
+George W. Bush,"December 18, 2005",-0.689075630252101
+George W. Bush,"January 29, 2001",1.46341463414634
+George W. Bush,"May 11, 2001",0.806451612903226
+George W. Bush,"June 07, 2001",0.566666666666667
+George W. Bush,"August 09, 2001",0.686567164179104
+George W. Bush,"September 11, 2001",-0.363636363636364
+George W. Bush,"January 08, 2002",2.40677966101695
+George W. Bush,"December 08, 2003",2.9672131147541
+George W. Bush,"January 29, 2002",-0.241176470588235
+George W. Bush,"January 07, 2004",0.821428571428571
+George W. Bush,"June 01, 2002",0.107692307692308
+George W. Bush,"January 20, 2004",0.144329896907216
+George W. Bush,"June 06, 2002",-0.657142857142857
+George W. Bush,"July 17, 2004",0.514018691588785
+George W. Bush,"June 19, 2002",0.372093023255814
+George W. Bush,"September 03, 2004",2.24022346368715
+George W. Bush,"September 12, 2002",-0.496551724137931
+George W. Bush,"January 20, 2005",1
+George W. Bush,"January 28, 2003",-0.410377358490566
+George W. Bush,"February 02, 2005",1.02094240837696
+George W. Bush,"March 17, 2003",-1.06741573033708
+George W. Bush,"August 31, 2005",0.675
+George W. Bush,"March 19, 2003",0.116279069767442
+George W. Bush,"September 15, 2005",-0.0731707317073171
+George W. Bush,"November 06, 2003",1.57615894039735
+Barack Obama,"December 01, 2009",-0.317880794701987
+Barack Obama,"September 23, 2010",0.795918367346939
+Barack Obama,"November 03, 2010",1.14935064935065
+Barack Obama,"May 15, 2016",1.38607594936709
+Barack Obama,"March 22, 2016",1.4047619047619
+Barack Obama,"January 12, 2016",1.31924882629108
+Barack Obama,"June 26, 2015",1.70434782608696
+Barack Obama,"March 07, 2015",1.19230769230769
+Barack Obama,"January 20, 2015",1.34741784037559
+Barack Obama,"November 20, 2014",0.338028169014085
+Barack Obama,"January 28, 2014",0.782608695652174
+Barack Obama,"December 04, 2013",1.25142857142857
+Barack Obama,"September 10, 2013",-0.638297872340426
+Barack Obama,"July 24, 2013",2.12264150943396
+Barack Obama,"July 19, 2013",-0.416666666666667
+Barack Obama,"August 28, 2008",0.611510791366906
+Barack Obama,"January 20, 2009",0.277310924369748
+Barack Obama,"January 29, 2009",0.483870967741935
+Barack Obama,"February 07, 2009",2
+Barack Obama,"February 24, 2009",0.245901639344262
+Barack Obama,"May 26, 2009",1.75438596491228
+Barack Obama,"September 09, 2009",0.158536585365854
+Barack Obama,"December 10, 2009",-0.432748538011696
+Barack Obama,"January 12, 2011",1.36842105263158
+Barack Obama,"January 27, 2010",0.0407239819004525
+Barack Obama,"January 25, 2011",2.02840909090909
+Barack Obama,"February 09, 2010",1.35643564356436
+Barack Obama,"May 01, 2011",-0.253731343283582
+Barack Obama,"March 15, 2010",1.87058823529412
+Barack Obama,"May 19, 2011",0.267942583732057
+Barack Obama,"April 15, 2010",1.925
+Barack Obama,"May 25, 2011",0.290540540540541
+Barack Obama,"April 28, 2010",-0.139130434782609
+Barack Obama,"June 22, 2011",0.322222222222222
+Barack Obama,"June 15, 2010",0
+Barack Obama,"September 08, 2011",0.817391304347826
+Barack Obama,"August 31, 2010",0.326530612244898
+Barack Obama,"October 21, 2011",0.911764705882353
+Barack Obama,"December 16, 2012",0.773809523809524
+Barack Obama,"November 06, 2012",2.12087912087912
+Barack Obama,"January 29, 2013",2.76315789473684
+Barack Obama,"February 13, 2013",1.77386934673367
+Barack Obama,"March 01, 2013",-0.423913043478261
+Barack Obama,"March 21, 2013",2.03571428571429
+Barack Obama,"April 08, 2013",0.517647058823529
+Donald Trump,"June 29, 2017",1.37777777777778
+Donald Trump,"July 24, 2017",3.81308411214953
+Donald Trump,"September 19, 2017",0.475728155339806
+Donald Trump,"December 18, 2017",0.8
+Donald Trump,"January 26, 2018",1.09734513274336
+Donald Trump,"February 01, 2018",2.648
+Donald Trump,"September 25, 2019",0.932835820895522
+Donald Trump,"February 15, 2018",-0.584905660377358
+Donald Trump,"October 27, 2019",-1.79591836734694
+Donald Trump,"February 23, 2018",1.2
+Donald Trump,"January 03, 2020",-1.2
+Donald Trump,"March 19, 2018",0.4
+Donald Trump,"January 08, 2020",-0.761904761904762
+Donald Trump,"July 24, 2018",1.79289940828402
+Donald Trump,"January 24, 2020",3.72131147540984
+Donald Trump,"September 25, 2018",0.494252873563218
+Donald Trump,"February 04, 2020",1.8326359832636
+Donald Trump,"January 19, 2019",0
+Donald Trump,"February 06, 2020",0.810975609756098
+Donald Trump,"February 05, 2019",0.341121495327103
+Donald Trump,"February 15, 2019",-0.566433566433566
+Donald Trump,"September 24, 2019",0.638418079096045
+Andrew Jackson,"December 08, 1829",0.947368421052632
+Ronald Reagan,"September 14, 1986",0.217391304347826
+Ronald Reagan,"April 14, 1986",-1.03846153846154
+Ronald Reagan,"October 13, 1986",0.858695652173913
+Donald Trump,"March 11, 2020",0.0757575757575758
+Andrew Jackson,"May 11, 1829",2
+Andrew Jackson,"May 06, 1830",1.21052631578947
+Andrew Jackson,"May 27, 1830",1.05925925925926
+Andrew Jackson,"October 05, 1830",3.25
+Andrew Jackson,"December 06, 1830",1.38888888888889
+Andrew Jackson,"February 22, 1831",0.388888888888889
+James K. Polk,"March 24, 1846",0.344827586206897
+James K. Polk,"December 02, 1845",1.228
+Abraham Lincoln,"July 06, 1852",-0.635869565217391
+Ulysses S. Grant,"March 04, 1873",0.384615384615385
+Ulysses S. Grant,"December 05, 1870",0.875621890547264
+Ulysses S. Grant,"February 07, 1871",1.70588235294118
+Ulysses S. Grant,"February 15, 1871",0.333333333333333
+Ulysses S. Grant,"May 03, 1871",1.04347826086957
+Ulysses S. Grant,"October 17, 1871",0.944444444444444
+Ulysses S. Grant,"December 04, 1871",1.15116279069767
+Ulysses S. Grant,"December 19, 1871",1.63636363636364
+Ulysses S. Grant,"December 02, 1872",1.53475935828877
+Grover Cleveland,"February 02, 1888",2.53703703703704
+Grover Cleveland,"October 01, 1888",0.745098039215686
+Franklin D. Roosevelt,"December 29, 1940",-0.198412698412698
+William McKinley,"March 15, 1897",0.476190476190476
+William McKinley,"March 04, 1897",0.971428571428571
+Woodrow Wilson,"January 22, 1917",1.80681818181818
+Woodrow Wilson,"October 20, 1914",1
+Woodrow Wilson,"December 08, 1914",NA
+Woodrow Wilson,"January 28, 1915",0.405405405405405
+Woodrow Wilson,"December 07, 1915",0.860606060606061
+Woodrow Wilson,"April 19, 1916",-1.64179104477612
+Woodrow Wilson,"September 02, 1916",0.421686746987952
+Woodrow Wilson,"September 02, 1916",0.427710843373494
+Woodrow Wilson,"September 08, 1916",0.5
+Woodrow Wilson,"December 05, 1916",0.446153846153846
+Warren G. Harding,"April 04, 1917",0.305555555555556
+Herbert Hoover,"October 22, 1928",1.23026315789474
+Herbert Hoover,"March 04, 1929",1.30882352941176
+Herbert Hoover,"June 11, 1929",0.0714285714285714
+Herbert Hoover,"July 24, 1929",1.48387096774194
+Herbert Hoover,"July 24, 1929",1.48387096774194
+Franklin D. Roosevelt,"January 06, 1941",0.702702702702703
+Franklin D. Roosevelt,"January 20, 1941",0.543859649122807
+Franklin D. Roosevelt,"March 15, 1941",0.306122448979592
+Franklin D. Roosevelt,"May 27, 1941",-0.185714285714286
+John F. Kennedy,"September 12, 1962",0.928571428571429
+John F. Kennedy,"October 21, 1960",1.57225433526012
+John F. Kennedy,"October 13, 1960",1.05035971223022
+John F. Kennedy,"January 11, 1962",0.977777777777778
+John F. Kennedy,"March 23, 1962",1
+John F. Kennedy,"June 06, 1962",0.3375
+John F. Kennedy,"June 11, 1962",0.432
+Lyndon B. Johnson,"May 13, 1965",-0.10989010989011
+Lyndon B. Johnson,"June 01, 1965",0.660714285714286
+Lyndon B. Johnson,"June 04, 1965",0.85
+Lyndon B. Johnson,"July 28, 1965",0.678082191780822
+Lyndon B. Johnson,"August 25, 1965",1.58260869565217
+Lyndon B. Johnson,"October 15, 1966",1.33333333333333
+Lyndon B. Johnson,"January 12, 1966",0.524861878453039
+Lyndon B. Johnson,"October 17, 1966",2
+Lyndon B. Johnson,"January 31, 1966",1.61290322580645
+Lyndon B. Johnson,"December 31, 1966",0.025974025974026
+Lyndon B. Johnson,"February 23, 1966",1
+Lyndon B. Johnson,"January 10, 1967",0.810810810810811
+Lyndon B. Johnson,"March 23, 1966",0.027027027027027
+Lyndon B. Johnson,"February 02, 1967",1.06153846153846
+Lyndon B. Johnson,"June 30, 1966",0.0697674418604651
+Lyndon B. Johnson,"March 09, 1967",0.802197802197802
+Lyndon B. Johnson,"July 05, 1966",0.844036697247706
+Lyndon B. Johnson,"March 15, 1967",-0.122950819672131
+Lyndon B. Johnson,"July 12, 1966",0.66304347826087
+Lyndon B. Johnson,"July 24, 1967",-1.64516129032258
+Lyndon B. Johnson,"July 20, 1966",0.221052631578947
+Lyndon B. Johnson,"October 06, 1966",0.771739130434783
+Lyndon B. Johnson,"July 27, 1967",-0.980392156862745
+Lyndon B. Johnson,"June 11, 1965",1.69811320754717
+Lyndon B. Johnson,"June 25, 1965",-0.129032258064516
+Lyndon B. Johnson,"July 13, 1965",1.6304347826087
