@@ -1,41 +1,39 @@
 #presidents
 
+#install.packages("SentimentAnalysis")
+
 library(shiny)
 library(tidyverse)
 library(Rcrawler)
 library(rvest)
 library(textdata)
-#install.packages("SentimentAnalysis")
 library(SentimentAnalysis)
 library(dplyr)
 library(tidytext)
+library(lubridate)
 
 #write.csv(speeches.info, "/Users/ingridsorensen/Desktop/DataScience/FoodDeserts/presidential-sentiment/speeches_info.csv")
-speech <- read.csv("speeches_info_2.csv")
-speech <- speech %>%
+speech <- read.csv("speeches_info_2.csv") %>%
   distinct()
-#Changing format of dates column
-as.Date("December 06, 2020", format = "%B %d, %Y")
-for (i in 1:as.numeric(nrow(speech))){
-  speech[i, 2] <- as.Date(toString(speech[i, 2]), format = "%B %d, %Y")
-  #as.Date(as.numeric(useful.date), origin = "1970-01-01")
-}
+
+speech$date <- strptime(as.character(speech$date), "%B %d, %Y")
+speech$date <- as.Date(speech$date)
 
 #Making a graph of the dates and sentiment
-speech$date <- as.numeric(speech$date)
 speech %>%
   ggplot(aes(x = date,
              y = sentiment.value)) +
   geom_col(aes(color = name))
+
 ui <- fluidPage(
-  fluidRow(h4("Left plot controls right plot")),
-  fluidRow(plotOutput("plot2", height = 300,
+  fluidRow(h4("Top plot controls bottom plot")),
+  fluidRow(plotOutput("plot2", height = 600,
                       brush = brushOpts(
                         id = "plot2_brush",
                         resetOnNew = TRUE
                       ))),
-  fluidRow(plotOutput("plot3", height = 300)
-  )
+  fluidRow(plotOutput("plot3", height = 600, brush = "plot3_brush")),
+  verbatimTextOutput("info")
 )
 
 server <- function(input, output, session) {
@@ -59,14 +57,27 @@ server <- function(input, output, session) {
   observe({
     brush <- input$plot2_brush
     if (!is.null(brush)) {
-      ranges2$x <- c(brush$xmin, brush$xmax)
-      ranges2$y <- c(-2.8, 5)
+      ranges2$x <- c(as.Date(brush$xmin, origin="1970-01-01"), as.Date(brush$xmax, origin="1970-01-01"))
+      ranges2$y <- c(-2.8, 5.5)
     } 
     else {
       ranges2$x <- NULL
       ranges2$y <- NULL
     }
   })
+  
+  output$info <- renderText({
+    # x <- input$plot3_click$x
+    # print(speech %>% filter(date > floor(as.numeric(x-2)) & date < floor(as.numeric(x+2))))
+    min <- floor(as.numeric(input$plot3_brush$xmin))
+    max <- floor(as.numeric(input$plot3_brush$xmax))
+    toString(speech %>% filter(date > min & date < max))
+    
+  })
+  
+  as.Date(-44193, origin="1970-01-01")
+  
+  
 }
 
 shinyApp(ui, server)
