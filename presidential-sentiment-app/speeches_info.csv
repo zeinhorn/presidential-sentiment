@@ -1,0 +1,21 @@
+"","name","date","sentiment.value"
+"1","Donald Trump","November 05, 2020",0.764705882352941
+"2","October 26, 2020","President Trump presides over the swearing-in ceremony for Justice Amy Coney Barrett as she becomes an associate justice of the US Supreme Court. She is only the fifth woman to become a Supreme Court justice. Barrett's nomination and confirmation was controversial as Republicans in 2016 refused to consider President Obama's nomination to the Supreme Court after Justice Antonin Scalia died in February, claiming it was too close the November presidential election. But when Justice Ruth Bader Ginsberg died in September, the Republicans pushed through her confirmation, and President Trump swore her in just a week before the 2020 presidential election. ",2.59375
+"3","Donald Trump","September 26, 2020",2.93055555555556
+"4","Donald Trump","September 07, 2020",-0.182857142857143
+"5","Donald Trump","August 08, 2020",-0.233009708737864
+"6","Donald Trump","July 04, 2020",1.81739130434783
+"7","Donald Trump","June 20, 2020",-0.307359307359307
+"8","Donald Trump","June 13, 2020",1.06666666666667
+"9","Donald Trump","June 01, 2020",-0.971014492753623
+"10","Donald Trump","April 23, 2020",1.2360248447205
+"11","Donald Trump","April 15, 2020",1.12121212121212
+"12","Donald Trump","April 13, 2020",0.607758620689655
+"13","George Washington","September 19, 1796",1.02272727272727
+"14","George Washington","April 30, 1789",1.31944444444444
+"15","George Washington","April 22, 1793",0.666666666666667
+"16","George Washington","August 29, 1796",2.6530612244898
+"17","John Adams","December 19, 1799",0.193548387096774
+"18","John Adams","March 04, 1797",1.52272727272727
+"19","John Adams","March 23, 1798",1.66666666666667
+"20","John Adams","May 21, 1800",-0.266666666666667

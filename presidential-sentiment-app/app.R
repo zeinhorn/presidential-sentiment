@@ -58,7 +58,7 @@ find.sentiment.value <- function(Url){
 
 speeches.info <- find.sentiment.value(speeches[1, ])
 
-for (i in 2:as.numeric(nrow(speeches))){
+for (i in 2:20){
   new.row <- find.sentiment.value(speeches[i, ])
   speeches.info <- rbind(speeches.info, new.row)
   print(i/as.numeric(nrow(speeches)))
