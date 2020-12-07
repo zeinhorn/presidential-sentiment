@@ -11,31 +11,34 @@ library(SentimentAnalysis)
 library(dplyr)
 library(tidytext)
 library(lubridate)
-
-#write.csv(speeches.info, "/Users/ingridsorensen/Desktop/DataScience/FoodDeserts/presidential-sentiment/speeches_info.csv")
-speech <- read.csv("speeches_info_2.csv") %>%
+speech.party <- read_csv("speech_party.csv") 
+speech.party <- speech.party [ ,-1] %>%
   distinct()
+speech.party$date <- strptime(as.character(speech.party$date), "%B %d, %Y")
+speech.party$date <- as.Date(speech.party$date)
 
-speech$date <- strptime(as.character(speech$date), "%B %d, %Y")
-speech$date <- as.Date(speech$date)
-
-#Making a graph of the dates and sentiment
-speech %>%
+speech.party %>%
   ggplot(aes(x = date,
              y = sentiment.value)) +
   geom_col(aes(color = name))
 
+#gdp.growth <- read_csv("GDP_Growth.csv")
+#gdp.growth$Date <- strptime(as.character(gdp.growth$Date), "%Y")
+#gdp.growth$Date <- as.Date(gdp.growth$Date)
 
-#Joinging party and speech
-speeches <- read_csv("speeches_info_2.csv")
-pres.party.data<- read_csv("pres_party.csv")
-speech.party <- speeches%>%
-  left_join(pres.party.data,
-            by= c("name" = "President"))
-write.csv(speech.party,"C:/Users/imias/OneDrive/MATH0216/Final Project/presidential-sentiment/presidential-sentiment-app/speech_party.csv")
+speech.party %>%
+  ggplot(aes(x = date,
+             y = sentiment.value)) +
+  geom_col(aes(color = name)) +
+  geom_smooth(data = gdp.growth)
 
 
 ui <- fluidPage(
+  selectizeInput(inputId = "var1",
+                 label = "Choose What to Color By",
+                 choices = c("President" = "name",
+                             "Political Party" = "Party"),
+                 selected = "name"),
   fluidRow(h4("Top plot controls bottom plot")),
   fluidRow(plotOutput("plot2", height = 600,
                       brush = brushOpts(
@@ -50,15 +53,22 @@ server <- function(input, output, session) {
   ranges2 <- reactiveValues(x = NULL, y = NULL)
   
   output$plot2 <- renderPlot({
-    ggplot(speech, aes(x = date,
+    ggplot(speech.party, aes(x = date,
                        y = sentiment.value)) +
-      geom_col(aes(color = name))
+      geom_col(aes_string(color = input$var1)) +
+      xlab("Year") +
+      ylab("Sentiment Value") +
+      ggtitle("President Speeches Over Time")
   })
   
   output$plot3 <- renderPlot({
-    ggplot(speech, aes(x = date,
+    ggplot(speech.party, aes(x = date,
                        y = sentiment.value)) +
-      geom_col(aes(color = name)) +
+      geom_col(aes_string(color = input$var1),
+               show.legend = FALSE) +
+      xlab("Year") +
+      ylab("Sentiment Value") +
+      ggtitle("Zoomed In: President Speeches Over Time") +
       coord_cartesian(xlim = ranges2$x, ylim = ranges2$y, expand = FALSE)
   })
   
@@ -81,7 +91,7 @@ server <- function(input, output, session) {
     # print(speech %>% filter(date > floor(as.numeric(x-2)) & date < floor(as.numeric(x+2))))
     min <- floor(as.numeric(input$plot3_brush$xmin))
     max <- floor(as.numeric(input$plot3_brush$xmax))
-    toString(speech %>% filter(date > min & date < max))
+    toString(speech.party %>% filter(date > min & date < max))
     
   })
   

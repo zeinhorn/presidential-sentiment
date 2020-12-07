@@ -70,3 +70,27 @@ pres.party.data$President <- str_replace_all(pres.party.data$President,
                                              "[:digit:]+\\.",
                                              "")
 write.csv(pres.party.data,"C:/Users/imias/OneDrive/MATH0216/Final Project/presidential-sentiment/presidential-sentiment-app/pres_party.csv")
+
+#write.csv(speeches.info, "/Users/ingridsorensen/Desktop/DataScience/FoodDeserts/presidential-sentiment/speeches_info.csv")
+speech <- read.csv("speeches_info_2.csv") %>%
+  distinct()
+
+speech$date <- strptime(as.character(speech$date), "%B %d, %Y")
+speech$date <- as.Date(speech$date)
+
+#Making a graph of the dates and sentiment
+speech %>%
+  ggplot(aes(x = date,
+             y = sentiment.value)) +
+  geom_col(aes(color = name))
+
+
+#Joinging party and speech
+speeches <- read_csv("speeches_info_2.csv")
+pres.party.data<- read_csv("pres_party.csv")
+speech.party <- speeches%>%
+  left_join(pres.party.data,
+            by= c("name" = "President"))
+write.csv(speech.party,"C:/Users/imias/OneDrive/MATH0216/Final Project/presidential-sentiment/presidential-sentiment-app/speech_party.csv")
+
+
