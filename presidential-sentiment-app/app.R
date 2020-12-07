@@ -25,6 +25,16 @@ speech %>%
              y = sentiment.value)) +
   geom_col(aes(color = name))
 
+
+#Joinging party and speech
+speeches <- read_csv("speeches_info_2.csv")
+pres.party.data<- read_csv("pres_party.csv")
+speech.party <- speeches%>%
+  left_join(pres.party.data,
+            by= c("name" = "President"))
+write.csv(speech.party,"C:/Users/imias/OneDrive/MATH0216/Final Project/presidential-sentiment/presidential-sentiment-app/speech_party.csv")
+
+
 ui <- fluidPage(
   fluidRow(h4("Top plot controls bottom plot")),
   fluidRow(plotOutput("plot2", height = 600,

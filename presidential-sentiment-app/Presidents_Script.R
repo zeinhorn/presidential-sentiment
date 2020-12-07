@@ -51,3 +51,22 @@ for (i in 2:20){
   speeches.info <- rbind(speeches.info, new.row)
   print(i/as.numeric(nrow(speeches)))
 }
+
+
+
+#Read in president table
+pres.party.url <- "https://enchantedlearning.com/history/us/pres/list.shtml#:~:text=1%20George%20Washington%20%281732-1799%29%20None%2C%20Federalist%201789-1797%20John,1809-1817%20George%20Clinton%2C%20Elbridge%20Gerry%20More%20items...%20s"
+pres.party.list <- pres.party.url%>%
+  read_html() %>%
+  html_nodes(xpath= '/html/body/font/table[2]')%>%
+  html_table(fill= TRUE)
+pres.party.data <- pres.party.list[[1]]
+pres.party.data <-pres.party.data [ , 1:2]
+
+pres.party.data$President <- str_replace_all(pres.party.data$President,
+                                             "\\([:digit:]{4}.*\\)",
+                                             "")
+pres.party.data$President <- str_replace_all(pres.party.data$President,
+                                             "[:digit:]+\\.",
+                                             "")
+write.csv(pres.party.data,"C:/Users/imias/OneDrive/MATH0216/Final Project/presidential-sentiment/presidential-sentiment-app/pres_party.csv")
