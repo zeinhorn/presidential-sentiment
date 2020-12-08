@@ -11,6 +11,8 @@ library(SentimentAnalysis)
 library(dplyr)
 library(tidytext)
 library(lubridate)
+library(ggrepel)
+
 speech.party <- read_csv("speech_party.csv") 
 speech.party <- speech.party [ ,-1] %>%
   distinct()
@@ -27,10 +29,23 @@ speech.party %>%
 #gdp.growth$Date <- as.Date(gdp.growth$Date)
 
 speech.party %>%
-  ggplot(aes(x = date,
-             y = sentiment.value)) +
-  geom_col(aes(color = name)) +
-  geom_smooth(data = gdp.growth)
+  ggplot() +
+  geom_col(data= speech.party,
+           aes(x= date,
+               y= sentiment.value,
+               color = name)) +
+  geom_point(data = events,
+             aes(x=Year,
+                 y=0))
+
+
+#Major evemts
+events <- read_csv("Major_events.csv")
+events$Year <- strptime(as.character(events$Year), "%Y")
+events$Year <- as.Date(events$Year)
+
+events.test <- events[1:2, ]
+
 
 
 ui <- fluidPage(
@@ -39,6 +54,11 @@ ui <- fluidPage(
                  choices = c("President" = "name",
                              "Political Party" = "Party"),
                  selected = "name"),
+  selectizeInput(inputId = "var2",
+               label = "Choose a max of two major events to show",
+               multiple=TRUE,
+               choices = levels(factor(events$Event)),
+               selected = "Declaration of Independence"),
   fluidRow(h4("Top plot controls bottom plot")),
   fluidRow(plotOutput("plot2", height = 600,
                       brush = brushOpts(
@@ -53,19 +73,36 @@ server <- function(input, output, session) {
   ranges2 <- reactiveValues(x = NULL, y = NULL)
   
   output$plot2 <- renderPlot({
+    
+    cdChoice <-input$var2
+    
+    eventselected <- events %>%
+      filter(Event == cdChoice)
+     
+    
     ggplot(speech.party, aes(x = date,
                        y = sentiment.value)) +
       geom_col(aes_string(color = input$var1)) +
+      geom_point(data = eventselected,
+                 aes(x= Year, y=0))+
       xlab("Year") +
       ylab("Sentiment Value") +
       ggtitle("President Speeches Over Time")
   })
   
   output$plot3 <- renderPlot({
+    
+    cdChoice <-input$var2
+    
+    eventselected <- events %>%
+      filter(Event == cdChoice)
+    
     ggplot(speech.party, aes(x = date,
                        y = sentiment.value)) +
       geom_col(aes_string(color = input$var1),
                show.legend = FALSE) +
+      geom_point(data = eventselected,
+                 aes(x= Year, y=0))+
       xlab("Year") +
       ylab("Sentiment Value") +
       ggtitle("Zoomed In: President Speeches Over Time") +
