@@ -55,10 +55,10 @@ ui <- fluidPage(
                              "Political Party" = "Party"),
                  selected = "name"),
   selectizeInput(inputId = "var2",
-               label = "Choose a max of two major events to show",
-               multiple=TRUE,
-               choices = levels(factor(events$Event)),
-               selected = "Declaration of Independence"),
+                 label = "Choose a max of two major events to show",
+                 multiple=TRUE,
+                 choices = levels(factor(events$Event)),
+                 selected = "Declaration of Independence"),
   fluidRow(h4("Top plot controls bottom plot")),
   fluidRow(plotOutput("plot2", height = 600,
                       brush = brushOpts(
@@ -66,7 +66,10 @@ ui <- fluidPage(
                         resetOnNew = TRUE
                       ))),
   fluidRow(plotOutput("plot3", height = 600, brush = "plot3_brush")),
-  verbatimTextOutput(outputId = "info", placeholder = TRUE)
+  fluidRow(
+    verbatimTextOutput(outputId = "info", placeholder = TRUE)
+  )
+  
 )
 
 server <- function(input, output, session) {
@@ -78,7 +81,7 @@ server <- function(input, output, session) {
     
     eventselected <- events %>%
       filter(Event == cdChoice)
-     
+    
     
     ggplot(speech.party, aes(x = date,
                              y = sentiment.value)) +
@@ -123,17 +126,41 @@ server <- function(input, output, session) {
     }
   })
   
-  output$info <- renderText({
-    # x <- input$plot3_click$x
-    # print(speech %>% filter(date > floor(as.numeric(x-2)) & date < floor(as.numeric(x+2))))
-    min <- floor(as.numeric(input$plot3_brush$xmin))
-    max <- floor(as.numeric(input$plot3_brush$xmax))
-    poi <- speech.party %>% filter(date > min & date < max)
-    if(as.numeric(nrow(poi))>5){
-      print("Please select a smaller area. There are too many speaches to display.")
+  
+  
+  observe({
+    poi <- speech.party %>% filter(name == "Zachary Taylor")
+    min <- 8700
+    max <- 8800
+    if(!is.null(input$plot3_brush)){
+      min <- floor(as.numeric(input$plot3_brush$xmin))
+      max <- floor(as.numeric(input$plot3_brush$xmax))
     }
-    print(speech.party.summary$text)
+    
+    
+    
+    print("change")
+    print(as.numeric(nrow(poi)))
+    poi <- speech.party %>% filter(date > min & date < max)
+    
+    printText <- "Select dates on graph above to view summary of the speeches."
+    
+    for(i in 1:as.numeric(nrow(poi))){
+      date.number <- as.numeric(poi[i,3])
+      date.text <- as.Date(date.number, origin="1970-01-01")
+      name <- toString(poi[i,2])
+      summary <- toString(poi[i,6])
+      printText <- paste(paste(paste(printText, "\n"),name,paste(date.text,summary)))
+    }
+    output$info <- renderText({
+      printText
+    })
+    
+    
   })
+  
+  
+  
   
   as.Date(-44193, origin="1970-01-01")
   
