@@ -5,7 +5,7 @@
 speeches <- read.csv("speech-urls3.csv")
 speeches <- speeches%>%
   select(Url)
-Url <- speeches[1, ]
+Url <- speeches[190, ] #50
 
 #find.sentiment.value(url)
 #in: url representing a president's speech from https://millercenter.org/the-presidency/
@@ -52,6 +52,51 @@ for (i in 2:20){
   print(i/as.numeric(nrow(speeches)))
 }
 
+#grab.summary(url)
+#in: url representing a president's speech from https://millercenter.org/the-presidency/
+#out: data frame containing a summary of the speech, if there, along with the date the speech was given
+grab.summary <- function(Url){
+  html.text <- Url %>%
+    read_html() %>%
+    html_nodes("p") %>%
+    html_text()
+  html.data <- data.frame(text = html.text,
+                          stringsAsFactors = FALSE)
+  
+  #clean up data
+  summary <- data.frame(text = html.data[1:4,],
+                        stringsAsFactors = FALSE)
+  char3 <- as.numeric(nchar(summary[3,1]))
+  char4 <- as.numeric(nchar(summary[4,1]))
+  if(char3<1000 & char4<1000 & (char3>60 | char4>60)){
+    if(char4>char3){
+      value <- data.frame(date = summary[3,1], text = summary[4,1], 
+                          stringsAsFactors = FALSE)
+    }else{
+      value <- data.frame(date = summary[2,1], text = summary[3,1],
+                          stringsAsFactors = FALSE)
+    }
+  }else{
+    value <- data.frame(date = summary[3,1], text = "There is no summary for this speech.",
+                        stringsAsFactors = FALSE)
+  }
+  return(value)
+}
+
+speeches.summary <- grab.summary(speeches[1, ])
+
+for (i in 2:as.numeric(nrow(speeches))){
+  new.row <- grab.summary(speeches[i, ])
+  speeches.summary <- rbind(speeches.summary, new.row)
+  if(i %% 10 == 0){
+    print(i)
+  }
+}
+
+speeches.summary.backup <- speeches.summary
+speeches.summary <- speeches.summary %>% distinct()
+
+write.csv(speeches.summary, "/Users/zeinhorn/Documents/school/college/senior/ds/Final_project/presidential-sentiment/speech-summary.csv")
 
 
 #Read in president table
@@ -92,5 +137,22 @@ speech.party <- speeches%>%
   left_join(pres.party.data,
             by= c("name" = "President"))
 write.csv(speech.party,"C:/Users/imias/OneDrive/MATH0216/Final Project/presidential-sentiment/presidential-sentiment-app/speech_party.csv")
+
+#joining party/speech with summary
+speech.party <- read_csv("speech_party.csv") 
+speech.party <- speech.party [ ,-1] %>%
+  distinct()
+
+speech.summary <- read_csv("speech-summary.csv") 
+speech.summary <- speech.summary [ ,-1] %>%
+  distinct()
+
+speech.party.summary <- speech.party%>%
+  left_join(speech.summary,
+            by= "date")
+
+speech.party.summary <- speech.party.summary %>% distinct(date, .keep_all = TRUE)
+
+write.csv(speech.party.summary,"/Users/zeinhorn/Documents/school/college/senior/ds/Final_project/presidential-sentiment/presidential-sentiment-app/speech_party_summary.csv")
 
 

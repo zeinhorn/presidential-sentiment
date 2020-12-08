@@ -13,7 +13,7 @@ library(tidytext)
 library(lubridate)
 library(ggrepel)
 
-speech.party <- read_csv("speech_party.csv") 
+speech.party <- read_csv("speech_party_summary.csv") 
 speech.party <- speech.party [ ,-1] %>%
   distinct()
 speech.party$date <- strptime(as.character(speech.party$date), "%B %d, %Y")
@@ -66,7 +66,7 @@ ui <- fluidPage(
                         resetOnNew = TRUE
                       ))),
   fluidRow(plotOutput("plot3", height = 600, brush = "plot3_brush")),
-  verbatimTextOutput("info")
+  verbatimTextOutput(outputId = "info", placeholder = TRUE)
 )
 
 server <- function(input, output, session) {
@@ -81,7 +81,7 @@ server <- function(input, output, session) {
      
     
     ggplot(speech.party, aes(x = date,
-                       y = sentiment.value)) +
+                             y = sentiment.value)) +
       geom_col(aes_string(color = input$var1)) +
       geom_point(data = eventselected,
                  aes(x= Year, y=0))+
@@ -98,7 +98,7 @@ server <- function(input, output, session) {
       filter(Event == cdChoice)
     
     ggplot(speech.party, aes(x = date,
-                       y = sentiment.value)) +
+                             y = sentiment.value)) +
       geom_col(aes_string(color = input$var1),
                show.legend = FALSE) +
       geom_point(data = eventselected,
@@ -128,8 +128,11 @@ server <- function(input, output, session) {
     # print(speech %>% filter(date > floor(as.numeric(x-2)) & date < floor(as.numeric(x+2))))
     min <- floor(as.numeric(input$plot3_brush$xmin))
     max <- floor(as.numeric(input$plot3_brush$xmax))
-    toString(speech.party %>% filter(date > min & date < max))
-    
+    poi <- speech.party %>% filter(date > min & date < max)
+    if(as.numeric(nrow(poi))>5){
+      print("Please select a smaller area. There are too many speaches to display.")
+    }
+    print(speech.party.summary$text)
   })
   
   as.Date(-44193, origin="1970-01-01")
