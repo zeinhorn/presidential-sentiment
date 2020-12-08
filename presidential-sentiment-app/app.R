@@ -11,7 +11,8 @@ library(SentimentAnalysis)
 library(dplyr)
 library(tidytext)
 library(lubridate)
-speech.party <- read_csv("speech_party.csv") 
+
+speech.party <- read_csv("speech_party_summary.csv") 
 speech.party <- speech.party [ ,-1] %>%
   distinct()
 speech.party$date <- strptime(as.character(speech.party$date), "%B %d, %Y")
@@ -22,15 +23,19 @@ speech.party %>%
              y = sentiment.value)) +
   geom_col(aes(color = name))
 
-#gdp.growth <- read_csv("GDP_Growth.csv")
-#gdp.growth$Date <- strptime(as.character(gdp.growth$Date), "%Y")
-#gdp.growth$Date <- as.Date(gdp.growth$Date)
-
-speech.party %>%
-  ggplot(aes(x = date,
-             y = sentiment.value)) +
-  geom_col(aes(color = name)) +
-  geom_smooth(data = gdp.growth)
+# gdp.growth <- read_csv("GDP_Growth.csv")
+# gdp.growth$Date <- strptime(as.character(gdp.growth$Date), "%Y")
+# gdp.growth$Date <- as.Date(gdp.growth$Date)
+# gdp.growth$Value <- as.numeric(gdp.growth$Value) #would need to fix for percents
+# 
+# speech.party %>%
+#   ggplot(aes(x = date)) +
+#   geom_col(aes(x = date,
+#                y = sentiment.value,
+#                color = name)) +
+#   geom_line(data = gdp.growth,
+#             aes(x = Date,
+#                 y = Value))
 
 
 ui <- fluidPage(
@@ -46,7 +51,7 @@ ui <- fluidPage(
                         resetOnNew = TRUE
                       ))),
   fluidRow(plotOutput("plot3", height = 600, brush = "plot3_brush")),
-  verbatimTextOutput("info")
+  verbatimTextOutput(outputId = "info", placeholder = TRUE)
 )
 
 server <- function(input, output, session) {
@@ -54,7 +59,7 @@ server <- function(input, output, session) {
   
   output$plot2 <- renderPlot({
     ggplot(speech.party, aes(x = date,
-                       y = sentiment.value)) +
+                             y = sentiment.value)) +
       geom_col(aes_string(color = input$var1)) +
       xlab("Year") +
       ylab("Sentiment Value") +
@@ -63,7 +68,7 @@ server <- function(input, output, session) {
   
   output$plot3 <- renderPlot({
     ggplot(speech.party, aes(x = date,
-                       y = sentiment.value)) +
+                             y = sentiment.value)) +
       geom_col(aes_string(color = input$var1),
                show.legend = FALSE) +
       xlab("Year") +
@@ -91,8 +96,11 @@ server <- function(input, output, session) {
     # print(speech %>% filter(date > floor(as.numeric(x-2)) & date < floor(as.numeric(x+2))))
     min <- floor(as.numeric(input$plot3_brush$xmin))
     max <- floor(as.numeric(input$plot3_brush$xmax))
-    toString(speech.party %>% filter(date > min & date < max))
-    
+    poi <- speech.party %>% filter(date > min & date < max)
+    if(as.numeric(nrow(poi))>5){
+      print("Please select a smaller area. There are too many speaches to display.")
+    }
+    print(speech.party.summary$text)
   })
   
   as.Date(-44193, origin="1970-01-01")
