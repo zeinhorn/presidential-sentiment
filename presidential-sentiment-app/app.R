@@ -41,7 +41,7 @@ speech.party %>%
 
 #Major evemts
 events <- read_csv("Major_events.csv")
-events$Year <- strptime(as.character(events$Year), "%Y")
+events$Year <- strptime(as.character(events$Year), "%F")
 events$Year <- as.Date(events$Year)
 
 events.test <- events[1:2, ]
