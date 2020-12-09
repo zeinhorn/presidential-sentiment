@@ -133,23 +133,26 @@ server <- function(input, output, session) {
    MATH0216 - Final Project
    12/09/20
    
-   The data set used consists of all U.S. presidents by name, all their speeches,
-   the date the speeches were given, the average afinn sentiment value of the speeches, 
+   The data set we made consists of all U.S. presidents by name, all their speeches,
+   the date the speeches were given, the average AFINN sentiment value of the speeches, 
    the presidents' political party, and the presidents' overall average sentiment score.
    
    The goals of this report are to compare how positive or negative different presidents' 
    speeches were over time, identify the overall most positive and negative presidents, 
-   recognize any relation between political party and average afinn score (if any), 
-   and observe how significant events may have shifted speech sentiment.
+   recognize any relation between political party and average AFINN score (if any), 
+   and observe how significant events may have shifted speech sentiment. We also hypothesize
+   that the sentiment values will provide insight to the emotional state at the time
+   a speech was given.
+
    
    'The AFINN lexicon is a list of English terms manually rated for valence with 
    an integer between -5 (negative) and +5 (positive) by Finn Årup Nielsen between 
    2009 and 2011.'
     
    Finn Årup Nielsen, “A new ANEW: evaluation of a word list for sentiment analysis 
-    in microblogs”, Proceedings of the ESWC2011 Workshop on ‘Making Sense of Microposts’:
-    Big things come in small packages. Volume 718 in CEUR Workshop Proceedings: 93-98.
-    2011 May. Matthew Rowe, Milan Stankovic, Aba-Sah Dadzie, Mariann Hardey (editors)"
+   in microblogs”, Proceedings of the ESWC2011 Workshop on ‘Making Sense of Microposts’:
+   Big things come in small packages. Volume 718 in CEUR Workshop Proceedings: 93-98.
+   2011 May. Matthew Rowe, Milan Stankovic, Aba-Sah Dadzie, Mariann Hardey (editors)"
    })
     
   output$directions <- renderText({
@@ -157,11 +160,12 @@ server <- function(input, output, session) {
      zoomed in image on the second graph. Highlight sections of the second graph 
      to see the president's name, the date the speech was given, and a summary.
      
-     Optional: Choose to color the graph by either presidents' names or 
-     political parties. Choose to add a max of 2 events to the graphs.
+     The graph can be colored by either presidents' names or political parties by
+     using the first drop down menu. You can also choose from a short list of important
+     American events to plot on the graph.
      
      Note: There are only 44 names listed due to Grover Cleveland serving two 
-     nonconsecutive terms. The speeches from both terms are combined under his name."
+     nonconsecutive terms. The speeches from both terms are combined."
   })
   
   ranges2 <- reactiveValues(x = NULL, y = NULL)
@@ -245,10 +249,12 @@ server <- function(input, output, session) {
   })
   
   output$results <- renderText({
-    "     This page includes a quantitative analysis by ranking individual presidents
-    by sentiment value and ranking average political party sentiment value.
-    We also created a tool for users to compare the average sentiment values
-    of individual presidents of their choice."
+    "     This page includes a tool for users to quantitatively compare the average 
+    sentiment values of individual presidents of their choice.
+    
+    There is also a quantitative analysis that ranks individual presidents by sentiment 
+    value. Below that is a table that ranks average political party sentiment value. 
+    The parties' minimum, maximum, and median sentiment values are also listed."
   })
   #Making a table of each president's average sentiment
   output$interactive.table <- renderTable({
@@ -310,7 +316,22 @@ server <- function(input, output, session) {
     The presidents with the most positive and negative sentiment values were all
     over 75 years ago; FDR is the most recent president in either the five highest or 
     five lowest sentiment values. This suggests that presidents have become
-    less emotional and extreme in their style of speeches. "
+    more emotional and extreme in their style of speeches. They tend to give speeches
+    that are both extremely positive and negative, giving them average sentiment values
+    closer to zero. This wider range of emotions is also supported by comparing minimum and 
+    maximum values of the two modern parties (Democrats and Republicans) to the four older
+    ones. Modern parties skew higher in both their mins and maxes while their medians
+    trend closer to zero.
+    
+    Our biggest takeaway is that based on their AFINN scores, presidential speeches are 
+    limited in their emotions. The speeches range from around -2.5 to 2.5, so they only
+    take up half of the scale (-5 to 5). Even the most emotional speeches stick to this range.
+    However, we are looking at these scores in a comparison of their raw text. An audience
+    member would not pick up on a small change of a speech's AFINN score because delivery
+    and context are also powerful determinants of emotional receptance. So, while this 
+    measure is useful for analyzing the text of speeches, and the speeches do react slightly
+    to current events, sentiment value is not an accurate measure of the emotional state of
+    America when the speech was given."
     
   })
 }
