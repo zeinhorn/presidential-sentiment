@@ -42,33 +42,54 @@ speech.party %>%
              aes(x = Year,
                  y = 0))
 
-ui <- fluidPage(
-  
-  #Choosing to color the graph by president or by political party
-  selectizeInput(inputId = "var1",
-                 label = "Choose What to Color By",
-                 choices = c("President" = "name",
-                             "Political Party" = "Party"),
-                 selected = "name"),
-  
-  #Choosing what events to show on the graph
-  selectizeInput(inputId = "var2",
-                 label = "Choose up to Two Major Events to Show",
-                 multiple=TRUE,
-                 choices = levels(factor(events$Event)),
-                 selected = "Declaration of Independence"),
-  
-  #Creating the two graphs - second one is the first zoomed in on one part
-  fluidRow(h4("The Top Plot Controls The Bottom Plot")),
-  fluidRow(plotOutput("plot2", height = 600,
-                      brush = brushOpts(
-                        id = "plot2_brush",
-                        resetOnNew = TRUE
-                      ))),
-  fluidRow(plotOutput("plot3", height = 600, brush = "plot3_brush")),
-  fluidRow(
-    verbatimTextOutput(outputId = "info", placeholder = TRUE)
-  )
+#Finding average sentiment value by president
+speech.by.pres <- speech.party %>%
+  group_by(name) %>%
+  filter(!is.na(sentiment.value)) %>%
+  mutate(president.sentiment = mean(sentiment.value))
+speech.by.pres <- speech.by.pres %>%
+  select(name, president.sentiment) %>%
+  distinct()
+
+ui <- navbarPage("Sentiment Analysis of US Presidents' Speeches",
+                 tabPanel("Introduction",
+                          textOutput(outputId = "intro")),
+                 tabPanel("Graph",
+                          
+                          #Choosing to color the graph by president or by political party
+                          selectizeInput(inputId = "var1",
+                                         label = "Choose What to Color By",
+                                         choices = c("President" = "name",
+                                                     "Political Party" = "Party"),
+                                         selected = "name"),
+                          
+                          #Choosing what events to show on the graph
+                          selectizeInput(inputId = "var2",
+                                         label = "Choose One Major Event to Show",
+                                         choices = levels(factor(events$Event)),
+                                         selected = "Declaration of Independence"),
+                          
+                          #Creating the two graphs - second one is the first zoomed in on one part
+                          fluidRow(h4("The Top Plot Controls The Bottom Plot")),
+                          fluidRow(plotOutput("plot2", height = 600,
+                                              brush = brushOpts(
+                                                id = "plot2_brush",
+                                                resetOnNew = TRUE
+                                              ))),
+                          fluidRow(plotOutput("plot3", height = 600, brush = "plot3_brush")),
+                          fluidRow(
+                            verbatimTextOutput(outputId = "info", placeholder = TRUE)
+                          )
+                 ),
+                 tabPanel("Table",
+                          selectizeInput(inputId = "var3",
+                                         label = "Choose Two or More Presidents' Sentiment Values to Compare",
+                                         choices = levels(factor(speech.by.pres$name)),
+                                         multiple = TRUE,
+                                         selected = "George Washington"),
+                          tableOutput(outputId = "table")),
+                 tabPanel("Conclusion",
+                          textOutput(outputId = "conclusion"))
 )
 
 server <- function(input, output, session) {
@@ -81,12 +102,13 @@ server <- function(input, output, session) {
     eventselected <- events %>%
       filter(Event == cdChoice)
     
-  #Creating graph of speeches and selected events
+    #Creating graph of speeches and selected events
     ggplot(speech.party, aes(x = date,
                              y = sentiment.value)) +
       geom_col(aes_string(color = input$var1)) +
       geom_point(data = eventselected,
-                 aes(x = Year, y = 0))+
+                 aes(x = Year, y = 0),
+                 size = 3) +
       xlab("Year") +
       ylab("Sentiment Value") +
       ggtitle("President Speeches Over Time")
@@ -104,15 +126,15 @@ server <- function(input, output, session) {
       geom_col(aes_string(color = input$var1),
                show.legend = FALSE) +
       geom_point(data = eventselected,
-                 aes(x = Year, y = 0))+
+                 aes(x = Year, y = 0),
+                 size = 3)+
       xlab("Year") +
       ylab("Sentiment Value") +
       ggtitle("Zoomed In: President Speeches Over Time") +
       coord_cartesian(xlim = ranges2$x, ylim = ranges2$y, expand = FALSE)
   })
   
-  # When a double-click happens, check if there's a brush on the plot.
-  # If so, zoom to the brush bounds; if not, reset the zoom.
+  #Using plot brush to look for selections on top graph
   observe({
     brush <- input$plot2_brush
     if (!is.null(brush)) {
@@ -125,8 +147,8 @@ server <- function(input, output, session) {
     }
   })
   
-  
-  
+  #Using plot brush to look for selections on bottom graph & displaying relevant
+  #speeches in a text output
   observe({
     poi <- speech.party %>% filter(name == "Zachary Taylor")
     min <- 8700
@@ -135,15 +157,11 @@ server <- function(input, output, session) {
       min <- floor(as.numeric(input$plot3_brush$xmin))
       max <- floor(as.numeric(input$plot3_brush$xmax))
     }
-    
-    
-    
-    print("change")
-    print(as.numeric(nrow(poi)))
     poi <- speech.party %>% filter(date > min & date < max)
     
-    printText <- "Select dates on graph above to view summary of the speeches."
     
+    #Making for loop to display date and summary for person of interest (poi)
+    printText <- "Select dates on graph above to view summary of the speeches."
     for(i in 1:as.numeric(nrow(poi))){
       date.number <- as.numeric(poi[i,3])
       date.text <- as.Date(date.number, origin="1970-01-01")
@@ -154,16 +172,17 @@ server <- function(input, output, session) {
     output$info <- renderText({
       printText
     })
-    
-    
   })
   
-  
-  
-  
-  as.Date(-44193, origin="1970-01-01")
-  
-  
+  #Making a table of each president's average sentiment
+  output$table <- renderTable({
+    presChoice <-input$var3
+    print(presChoice)
+    presselected <- speech.by.pres %>%
+      filter(c(name == presChoice))
+    print(presselected)
+    
+  })
 }
 
 shinyApp(ui, server)
